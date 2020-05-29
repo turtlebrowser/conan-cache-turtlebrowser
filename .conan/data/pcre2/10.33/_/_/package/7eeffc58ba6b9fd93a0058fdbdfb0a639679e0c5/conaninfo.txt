@@ -1,0 +1,51 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.version=11.0
+    os=Macos
+
+[requires]
+    bzip2/1.Y.Z
+    zlib/1.Y.Z
+
+[options]
+    build_pcre2_16=True
+    build_pcre2_32=True
+    build_pcre2_8=True
+    fPIC=True
+    shared=False
+    support_jit=True
+    with_bzip2=True
+
+[full_settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.version=11.0
+    os=Macos
+
+[full_requires]
+    bzip2/1.0.8:e26f883c3e136952d830bcdc838898582f2a8d80
+    zlib/1.2.11:0aa7be2d0914b6f3128105e305c90b9cb0cae86d
+
+[full_options]
+    build_pcre2_16=True
+    build_pcre2_32=True
+    build_pcre2_8=True
+    fPIC=True
+    shared=False
+    support_jit=True
+    with_bzip2=True
+    bzip2:build_executable=True
+    bzip2:fPIC=True
+    bzip2:shared=False
+    zlib:fPIC=True
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+    7c5af67885001b312411c036f2eab030
+
+[env]
+
