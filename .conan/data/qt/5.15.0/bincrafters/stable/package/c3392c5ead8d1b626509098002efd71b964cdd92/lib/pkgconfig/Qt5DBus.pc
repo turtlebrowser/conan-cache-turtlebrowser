@@ -1,0 +1,13 @@
+prefix=/Users/runner/runners/2.263.0/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.0/bincrafters/stable/package/c3392c5ead8d1b626509098002efd71b964cdd92
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 DBus
+Description: Qt DBus module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5DBus 
+Cflags: -DQT_DBUS_LIB -I${includedir}/QtDBus -I${includedir}
+Requires: Qt5Core
+
