@@ -1,4 +1,4 @@
-1591133580
+1591637856
 bin/Assistant.app/Contents/Info.plist: 273baa6cba29c487bc67fae197291914
 bin/Assistant.app/Contents/MacOS/Assistant: 24bcb54a867bcaa376413139aba7ed20
 bin/Assistant.app/Contents/PkgInfo: 3eb019b2efc51cbae3c012fc5c512c95
@@ -42,7 +42,7 @@ bin/qdistancefieldgenerator: 02d9aa1df4fdf094d792e92417eea634
 bin/qdoc: 602219a2ec0dc1757d9f0f1edd0fd362
 bin/qhelpgenerator: bab30ed8f846eae3771b91196af35886
 bin/qlalr: 0319d480c878d791a21b43daf5e58ad6
-bin/qmake: b5e0a3754b28a026e0c26d1f51b3ec8b
+bin/qmake: a9c775c0515c540fb0466e35765c8c1e
 bin/qml.app/Contents/Info.plist: d309881567b3344ec2c2e817ef6cc662
 bin/qml.app/Contents/MacOS/qml: c90ae4ac7ff27b0cb497cb51f017e63e
 bin/qml.app/Contents/PkgInfo: 3eb019b2efc51cbae3c012fc5c512c95
@@ -4482,13 +4482,13 @@ lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake: b992898ad5fbe17c70a9c44b619f3863
 lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake: a0cc80c6629e828ee42192ffcf127e0d
 lib/cmake/Qt5Xml/Qt5XmlConfig.cmake: 188b76103415f1cd91dd1260a54b3b49
 lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake: f4f9f68f06fdcbb662cf167ce3a704e2
-lib/libQt5AccessibilitySupport.a: e2e823a7007a5e2a4c61248f1a9ca4b1
+lib/libQt5AccessibilitySupport.a: 2a4078fecff47e8b8ab9e90f8b4c9d71
 lib/libQt5AccessibilitySupport.la: 10c29ac1f16cfddbde0d19ecd1b3bef8
 lib/libQt5AccessibilitySupport.prl: 6908eae6a06c14e06266985a06de8361
-lib/libQt5Bootstrap.a: 625ee5c5998d27e897a837fa5e310a2c
+lib/libQt5Bootstrap.a: dd051c96a4176daf9aadd70243b7bf04
 lib/libQt5Bootstrap.la: 14f5bbcb1ebb25ef067aaced77493ae1
 lib/libQt5Bootstrap.prl: ed7fe1a8f343852c4474aae231e796f4
-lib/libQt5ClipboardSupport.a: 05d614577d79e37d6f095735fe0ec8a2
+lib/libQt5ClipboardSupport.a: 2a8781f986957344d82038c922fcb2a8
 lib/libQt5ClipboardSupport.la: c3c03e3040d546da3a5cceaae9574ee7
 lib/libQt5ClipboardSupport.prl: 13b3d94833f88c9f13826340d7227572
 lib/libQt5Concurrent.5.15.0.dylib: ff2f020b5cb0e329b1ece9dac7f6931b
@@ -4521,22 +4521,22 @@ lib/libQt5DesignerComponents.5.dylib: fa6b371ebfccb8a0d3b4023fcac6205f
 lib/libQt5DesignerComponents.dylib: fa6b371ebfccb8a0d3b4023fcac6205f
 lib/libQt5DesignerComponents.la: 550510d63b5379b22606e0ad37f324fe
 lib/libQt5DesignerComponents.prl: 9198a715403ce363e6d1b04d0f2cb9f3
-lib/libQt5DeviceDiscoverySupport.a: 77e399a9a12ab6c02acf22442fd2904d
+lib/libQt5DeviceDiscoverySupport.a: 36c59a4e5cb4ebb6167b09d2fc6a6bd1
 lib/libQt5DeviceDiscoverySupport.la: 42f0e0d35cb3e575919095260578bbea
 lib/libQt5DeviceDiscoverySupport.prl: 7c7ff7c6944a6396c793be2ccc181b1b
-lib/libQt5EdidSupport.a: 88077cc71b290d44a81c85b5aeb48d38
+lib/libQt5EdidSupport.a: 0f8d97815f3d83487dcafd178278d045
 lib/libQt5EdidSupport.la: fee2c0630504c33a622ed10d6b608f57
 lib/libQt5EdidSupport.prl: 9fc459287d897321c9c5f186cdf97845
-lib/libQt5EventDispatcherSupport.a: 1cf799189e271042228fedb1b9ac6772
+lib/libQt5EventDispatcherSupport.a: 92cfd9c61c345692b0b22b2ef1a4f27e
 lib/libQt5EventDispatcherSupport.la: d9d284a1c60718877587c34ee5615b80
 lib/libQt5EventDispatcherSupport.prl: 07d3547c50f1c7d6b59651b854ceea4a
-lib/libQt5FbSupport.a: 2afef414856a3e6f2f8d359b01c3713b
+lib/libQt5FbSupport.a: d3a9a320d6c3f20b0fcbeedbe96f627c
 lib/libQt5FbSupport.la: 19b14a03fd329cf375f506e1e6e33836
 lib/libQt5FbSupport.prl: cbc7c35442ea95c606d4a00b1bcff332
-lib/libQt5FontDatabaseSupport.a: aa3e259c647ffbe42b83cdeb5271685a
+lib/libQt5FontDatabaseSupport.a: a066f1a0fcb30ae374590d596950c1da
 lib/libQt5FontDatabaseSupport.la: 30ecfdfc95c503c106fae1de62ba0a6b
 lib/libQt5FontDatabaseSupport.prl: 540a1f5f033decdbc05dc82e980192df
-lib/libQt5GraphicsSupport.a: 283dcbba2d124708e4b306a68f00c9a6
+lib/libQt5GraphicsSupport.a: 4405a300df60c7dc49969368889a86ff
 lib/libQt5GraphicsSupport.la: 20d6531041ecf608aa17860c99edf988
 lib/libQt5GraphicsSupport.prl: d9ce7a7d9eaa8b374f7c91eab7d600d6
 lib/libQt5Gui.5.15.0.dylib: bcabf2fae3ac8c5bc5d23a4a1f4e407a
@@ -4569,10 +4569,10 @@ lib/libQt5OpenGL.5.dylib: a2808c7ef18c66a96d291194204f0061
 lib/libQt5OpenGL.dylib: a2808c7ef18c66a96d291194204f0061
 lib/libQt5OpenGL.la: 0c614d4d4e0c8999b73e48cd0672aac4
 lib/libQt5OpenGL.prl: 31210168fcf0987913a135eaa205dc68
-lib/libQt5OpenGLExtensions.a: 9224d4a38f4ea71e20d9a3d1231e530e
+lib/libQt5OpenGLExtensions.a: e5a14b706619cc74200b6e7b44ac9315
 lib/libQt5OpenGLExtensions.la: a30ac7934f86d448c2e9c6c400eb327c
 lib/libQt5OpenGLExtensions.prl: 4683edbe4568865928248db4a2558f0d
-lib/libQt5PacketProtocol.a: 303b90c944fa044d18d58a5503f06752
+lib/libQt5PacketProtocol.a: fd77c3df6f33f8aef9d248bfc204e2f2
 lib/libQt5PacketProtocol.la: c2da323ba45e2db0c8b93dbdf24eaab6
 lib/libQt5PacketProtocol.prl: e422711b6bd742c9e8c36b4ee09e08f4
 lib/libQt5Pdf.5.15.0.dylib: d823dab6a98c7303e0b615ea05ee5d50
@@ -4587,7 +4587,7 @@ lib/libQt5PdfWidgets.5.dylib: 7f41402e6b1faa97a4b91e2a01905b9c
 lib/libQt5PdfWidgets.dylib: 7f41402e6b1faa97a4b91e2a01905b9c
 lib/libQt5PdfWidgets.la: 42f9bdcbe731affc49d5470e8dc05ed7
 lib/libQt5PdfWidgets.prl: 24316c811a0b714b1ffd9fa68ce3007d
-lib/libQt5PlatformCompositorSupport.a: 18fc1bb302caa4938bb2f6c042e75226
+lib/libQt5PlatformCompositorSupport.a: a57c1097e97b9cee5668d775f6641923
 lib/libQt5PlatformCompositorSupport.la: cbbe972e1fc78ae16230456b16acc773
 lib/libQt5PlatformCompositorSupport.prl: 724c2f1888f783d3a3d692531e1689a5
 lib/libQt5Positioning.5.15.0.dylib: 975ed62b94940e785caf12b782493661
@@ -4614,10 +4614,10 @@ lib/libQt5Qml.5.dylib: d607af2b699e885b90910eb959289b11
 lib/libQt5Qml.dylib: d607af2b699e885b90910eb959289b11
 lib/libQt5Qml.la: d682f7f4f61e8a431e61987159f4206c
 lib/libQt5Qml.prl: 3397b183f2f5b221007bfbe236337ef0
-lib/libQt5QmlDebug.a: 80fbe083dbd63971d5f433ba9007d014
+lib/libQt5QmlDebug.a: ddf427b3175eba4feff5f1bd21b636b1
 lib/libQt5QmlDebug.la: 360ea693741df7435baa5cce43fcad9b
 lib/libQt5QmlDebug.prl: 8f087a26ea69963e4a0c6c07dff79634
-lib/libQt5QmlDevTools.a: 63cf3d53e0f91f5c0b2bf046b55b460a
+lib/libQt5QmlDevTools.a: a9a302e2955ea12765fab5cc82c631c7
 lib/libQt5QmlDevTools.la: 5d9ef2a738a036471d7ec2f58bebd2c1
 lib/libQt5QmlDevTools.prl: d6c4dfc80f48a18bf2160afb199af49f
 lib/libQt5QmlModels.5.15.0.dylib: 3969c342356575714262c7f47001f78a
@@ -4674,7 +4674,7 @@ lib/libQt5QuickWidgets.5.dylib: 7e0effe3f0ec6bf99c3e30b7af2d1a20
 lib/libQt5QuickWidgets.dylib: 7e0effe3f0ec6bf99c3e30b7af2d1a20
 lib/libQt5QuickWidgets.la: 9b7170b767fd3aa8a04e14dad8a8f826
 lib/libQt5QuickWidgets.prl: 7beca5ec5efbc881e24b751999dbe591
-lib/libQt5ServiceSupport.a: de3689a1323285fbf07dfa0055cde763
+lib/libQt5ServiceSupport.a: 6475c26a6b4538747098c6341cfaf467
 lib/libQt5ServiceSupport.la: c1537886db301117d557c5e846801562
 lib/libQt5ServiceSupport.prl: e109a9f9fa3f80f88569ce0716d881a4
 lib/libQt5Sql.5.15.0.dylib: a9d5fe9166245f4377dc88cb0b02056c
@@ -4695,11 +4695,11 @@ lib/libQt5Test.5.dylib: c7c4c6908a6786f7d7bc0227d5b5c334
 lib/libQt5Test.dylib: c7c4c6908a6786f7d7bc0227d5b5c334
 lib/libQt5Test.la: e8e9a8bf43c971cd2ea45290936a0c9d
 lib/libQt5Test.prl: fd3847e15aeff6463f7e43ddd392a59e
-lib/libQt5ThemeSupport.a: f39abdaf5ef4bc8068a5cb7b873c4301
+lib/libQt5ThemeSupport.a: d6aa767062bf71a638aa8e0b7655768f
 lib/libQt5ThemeSupport.la: 164df1bab126694cdb2eadc64c671be1
 lib/libQt5ThemeSupport.prl: f81344da877eb97bf26dcbd37fd54ebc
 lib/libQt5UiPlugin.prl: 0bf24e54161fa1b139e73d4c0dd22dd9
-lib/libQt5UiTools.a: 37fc86ba9e581d3bc13246b65e8628cb
+lib/libQt5UiTools.a: 902c643e7f0c4a987f756680e9857864
 lib/libQt5UiTools.la: f24eb52008e78a7d9ef898935fd2bbfa
 lib/libQt5UiTools.prl: a489264340f382ca84de689620397eb8
 lib/libQt5WebChannel.5.15.0.dylib: a97905e143814e576fd32175c2b90a08
@@ -5315,7 +5315,7 @@ mkspecs/openbsd-g++/qmake.conf: 112f1a036439170c1839fd0ba3e92498
 mkspecs/openbsd-g++/qplatformdefs.h: 326164af2cebfca9bf8eb0ca6fa00a0c
 mkspecs/qconfig.pri: e25ec62e6e85c86af6a3ea8d07bfeb2d
 mkspecs/qdevice.pri: b157388c7bb18a1f4102757642847dfa
-mkspecs/qmodule.pri: 8d5c1fc5a7d6466a542e849747828d25
+mkspecs/qmodule.pri: b67f24360d768c1543cdf9c8061763c6
 mkspecs/qnx-aarch64le-qcc/qmake.conf: 1bcf25803844c91fa57c37b92dc5d704
 mkspecs/qnx-aarch64le-qcc/qplatformdefs.h: 92172d3fc9ab71e33f6474f862431cb3
 mkspecs/qnx-armle-v7-qcc/qmake.conf: f5b88788bb84f0f055027da2db05c69d
