@@ -303,7 +303,7 @@ class QtConan(ConanFile):
         if self.options.with_icu:
             self.requires("icu/64.2")
         if self.options.with_harfbuzz and not self.options.multiconfiguration:
-            self.requires("harfbuzz/2.6.4@bincrafters/stable")
+            self.requires("harfbuzz/2.6.7@bincrafters/stable")
         if self.options.with_libjpeg and not self.options.multiconfiguration:
             self.requires("libjpeg/9d")
         if self.options.with_libpng and not self.options.multiconfiguration:
@@ -688,12 +688,10 @@ class QtConan(ConanFile):
                     }) if tools.os_info.is_macos else tools.no_op():
                     self.run(self._make_program(), run_environment=True)
 
-        with open('qtbase/bin/qt.conf', 'w') as f:
-            f.write('[Paths]\nPrefix = ..')
-
     def package(self):
         self.run("%s install" % self._make_program())
-        self.copy("bin/qt.conf", src="qtbase")
+        with open(os.path.join(self.package_folder, "bin", "qt.conf"), 'w') as f:
+            f.write('[Paths]\nPrefix = ..\n')
         self.copy("*LICENSE*", src="qt5/", dst="licenses")
 
     def package_id(self):
