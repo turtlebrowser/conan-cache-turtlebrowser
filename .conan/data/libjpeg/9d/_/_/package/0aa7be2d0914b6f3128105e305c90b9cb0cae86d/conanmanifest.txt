@@ -1,13 +1,13 @@
-1585068771
-bin/cjpeg: 6dcebbfe7b11547f9f3600599b72db3e
-bin/djpeg: fe12e40dc9b4a1a5cc71859340c29b20
-bin/jpegtran: 9e3333064cf0d04be641e4f5cb9ca5e3
-bin/rdjpgcom: 75daa1e7845178b8390cebea2dca6634
-bin/wrjpgcom: 772037ff2bd7d402197473c359789272
-conaninfo.txt: 61bdbfcb7790a92d1a5d054ecc1e7f5b
+1591130531
+bin/cjpeg: 6fe7094214f8f67ec4c47799e8a1af83
+bin/djpeg: 74b3b973b3097313041d7216e0c74882
+bin/jpegtran: c495c108cd074011c62b238e22431e08
+bin/rdjpgcom: 28ba80fcadb15ecfd549abd38f5bb806
+bin/wrjpgcom: 7452b2a46b26b4b8fd92ec9042f587a5
+conaninfo.txt: b9d6f87d76297cd50e6733c15ec7c0c6
 include/jconfig.h: ca3d9e86de2bbdbe8240edb85ab17843
 include/jerror.h: 8001f7238161aef01a3d4319f5a699c9
 include/jmorecfg.h: 95fd54daf9b8232f743dd938dfa87726
 include/jpeglib.h: 5fdab3089cd6666b77b00f2f63243082
-lib/libjpeg.a: 53057f58f317d82e5b38fc91b91330c4
+lib/libjpeg.a: 47e18228d806e90aa9813084153132c3
 licenses/README: 41ce79696b7cebc1e3715f19af5db026
