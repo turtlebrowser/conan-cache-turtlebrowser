@@ -54,8 +54,9 @@
 #define QT_FEATURE_vnc 1
 #define QT_FEATURE_vsp2 -1
 #define QT_FEATURE_xcb_egl_plugin -1
-#define QT_FEATURE_xlib -1
-#define QT_FEATURE_xcb_xlib -1
-#define QT_FEATURE_xcb_glx_plugin -1
+#define QT_FEATURE_xlib 1
+#define QT_FEATURE_xcb_xlib 1
+#define QT_FEATURE_xcb_glx_plugin 1
+#define QT_FEATURE_xcb_glx 1
 #define QT_FEATURE_xcb_native_painting -1
 #define QT_FEATURE_xcb_sm 1

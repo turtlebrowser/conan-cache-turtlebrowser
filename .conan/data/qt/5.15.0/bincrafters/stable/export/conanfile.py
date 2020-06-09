@@ -49,7 +49,7 @@ class QtConan(ConanFile):
     url = "https://github.com/bincrafters/conan-qt"
     homepage = "https://www.qt.io"
     license = "LGPL-3.0"
-    exports = ["qtmodules.conf", "patches/*.diff"]
+    exports = ["qtmodules.conf", "patches/*.diff", "CHANGELOG.md"]
     settings = "os", "arch", "compiler", "build_type"
 
     options = dict({
@@ -123,6 +123,7 @@ class QtConan(ConanFile):
         "config": None,
         "multiconfiguration": False,
         "libxcb:shared": True,
+        "libx11:shared": True,
     }, **{module: False for module in _submodules if module != 'qtbase'}
     )
     requires = "zlib/1.2.11"
@@ -298,7 +299,7 @@ class QtConan(ConanFile):
         if self.options.with_freetype and not self.options.multiconfiguration:
             self.requires("freetype/2.10.1")
         if self.options.with_fontconfig:
-            self.requires("fontconfig/2.13.91@conan/stable")
+            self.requires("fontconfig/2.13.91")
         if self.options.with_icu:
             self.requires("icu/64.2")
         if self.options.with_harfbuzz and not self.options.multiconfiguration:
@@ -372,6 +373,14 @@ class QtConan(ConanFile):
             "  if (enable_precompiled_headers) {\n    if (is_win) {",
             "  if (enable_precompiled_headers) {\n    if (false) {"
             )
+
+    def _make_program(self):
+        if self.settings.compiler == "Visual Studio":
+            return "jom"
+        elif tools.os_info.is_windows:
+            return "mingw32-make"
+        else:
+            return "make"
 
     def _xplatform(self):
         if self.settings.os == "Linux":
@@ -671,27 +680,21 @@ class QtConan(ConanFile):
                 build_env["PATH"] = [os.path.join(self.source_folder, "qt5", "gnuwin32", "bin")]
             with tools.environment_append(build_env):
                 self.run("%s/qt5/configure %s" % (self.source_folder, " ".join(args)), run_environment=True)
-
-                if self.settings.compiler == "Visual Studio":
-                    make = "jom"
-                elif tools.os_info.is_windows:
-                    make = "mingw32-make"
-                else:
-                    make = "make"
                 if tools.os_info.is_macos:
                     with open("bash_env", "w") as f:
                         f.write('export DYLD_LIBRARY_PATH="%s"' % ":".join(RunEnvironment(self).vars["DYLD_LIBRARY_PATH"]))
                 with tools.environment_append({
                     "BASH_ENV": os.path.abspath("bash_env")
                     }) if tools.os_info.is_macos else tools.no_op():
-                    self.run(make, run_environment=True)
-                    self.run("%s install" % make)
+                    self.run(self._make_program(), run_environment=True)
 
         with open('qtbase/bin/qt.conf', 'w') as f:
             f.write('[Paths]\nPrefix = ..')
 
     def package(self):
+        self.run("%s install" % self._make_program())
         self.copy("bin/qt.conf", src="qtbase")
+        self.copy("*LICENSE*", src="qt5/", dst="licenses")
 
     def package_id(self):
         del self.info.options.cross_compile

@@ -125,7 +125,7 @@
     bzip2/1.0.8:b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3
     double-conversion/3.1.5:66c5327ebdcecae0a01a863939964495fa019a06
     expat/2.2.9:d50a0d523d98c15bb147b18fa7d203887c38be8b
-    fontconfig/2.13.91@conan/stable:601f3e3a04caab49fed737c0d0bc8d6b5696b91b
+    fontconfig/2.13.91:601f3e3a04caab49fed737c0d0bc8d6b5696b91b
     freetype/2.10.1:3cdd93cd46fc07735d1b0d7f2860a82fac7a3053
     harfbuzz/2.6.4@bincrafters/stable:24b082529dd4a0eedb432f2c422354d31517e461
     icu/64.2:d8ebc772a721a37c9b33886cbbc9fe31fda9882b
@@ -138,7 +138,7 @@
     libpq/11.5:360ab4f3ec4b4400aefba033ba9af18b044a8b4a
     libpthread-stubs/0.1@bincrafters/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
     libuuid/1.0.3:d50a0d523d98c15bb147b18fa7d203887c38be8b
-    libx11/1.6.8@bincrafters/stable:ca673059bbdfbf99c22efbf6268a147d44c611e0
+    libx11/1.6.8@bincrafters/stable:ee7e8c22a4645bde16d8dacf89e8f5b242755c89
     libxau/1.0.9@bincrafters/stable:6ada0d66d142c8adc7d6b34e6abf1b6a0731b12d
     libxcb/1.13.1@bincrafters/stable:9b167c2db799066d3aee13159ba436b7a776c2b2
     libxcomposite/0.4.5@bincrafters/stable:ab6f05dca42bf13a47273ae761ffbe4cf1401459
@@ -308,7 +308,7 @@
     libuuid:fPIC=True
     libuuid:shared=False
     libx11:fPIC=True
-    libx11:shared=False
+    libx11:shared=True
     libxau:fPIC=True
     libxau:shared=False
     libxcb:fPIC=True
@@ -403,7 +403,7 @@
     zstd:shared=False
 
 [recipe_hash]
-    6a6366553a985ae80fc0fd26a64f5136
+    0e93809d24c061bc6d585113a542d6bb
 
 [env]
 
