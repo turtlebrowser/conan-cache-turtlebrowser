@@ -8,4 +8,4 @@ Version: 0.10.0
 Requires: xkbcommon
 Requires.private: xcb >= 1.10, xcb-xkb >= 1.10
 Libs: -L${libdir} -lxkbcommon-x11
-Cflags: -I${includedir}
+Cflags:-I${includedir}

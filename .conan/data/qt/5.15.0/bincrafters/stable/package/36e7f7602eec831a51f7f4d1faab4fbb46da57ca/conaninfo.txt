@@ -127,7 +127,7 @@
     expat/2.2.9:d50a0d523d98c15bb147b18fa7d203887c38be8b
     fontconfig/2.13.91:601f3e3a04caab49fed737c0d0bc8d6b5696b91b
     freetype/2.10.1:3cdd93cd46fc07735d1b0d7f2860a82fac7a3053
-    harfbuzz/2.6.4@bincrafters/stable:24b082529dd4a0eedb432f2c422354d31517e461
+    harfbuzz/2.6.7@bincrafters/stable:24b082529dd4a0eedb432f2c422354d31517e461
     icu/64.2:d8ebc772a721a37c9b33886cbbc9fe31fda9882b
     libdrm/2.4.100@bincrafters/stable:50a762945a2539103bcb8c3ea230c9bb5e11b383
     libiconv/1.16:d50a0d523d98c15bb147b18fa7d203887c38be8b
@@ -403,7 +403,7 @@
     zstd:shared=False
 
 [recipe_hash]
-    0e93809d24c061bc6d585113a542d6bb
+    2776f94c7a083550c5ce6e39f57cb69f
 
 [env]
 
