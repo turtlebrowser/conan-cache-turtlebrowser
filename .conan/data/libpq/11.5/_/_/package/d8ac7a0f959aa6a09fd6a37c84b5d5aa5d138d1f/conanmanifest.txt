@@ -1,5 +1,5 @@
-1582045062
-conaninfo.txt: f6bca4f5e7494ed84c21353a53f47d33
+1591784723
+conaninfo.txt: 77912aac54f6df1b2ed43aee963bf239
 include/catalog/genbki.h: c31af664def3c6a3770fde74b6158a69
 include/catalog/pg_aggregate_d.h: f5eb06e6d5cdb4d3c1d0450a12e0b15e
 include/catalog/pg_am_d.h: c7a24a646fbbed80d7864af35266014e
@@ -84,6 +84,6 @@ include/libpq/scram.h: bf99973ffbaffda5ad30a4649c0b4465
 include/pg_config.h: a8fb9ce1e6cbea51ace7be8835fd9fd1
 include/pg_config_ext.h: 884bb863858c67ad7d9385ac573f5030
 include/postgres_ext.h: af0999901d1b09383c00216cb03ee01b
-lib/libpgport.lib: 12b400fb6318eb3a38d3a4993df2e4eb
-lib/libpq.lib: dbb4adf5cfc684667e868e9405686c6d
+lib/libpgport.lib: 9a7ffcd1be328fb374acb85b6c823da8
+lib/libpq.lib: f8f5b999b28154c33100f70ab7e31e57
 licenses/COPYRIGHT: 87da2b84884860b71f5f24ab37e7da78

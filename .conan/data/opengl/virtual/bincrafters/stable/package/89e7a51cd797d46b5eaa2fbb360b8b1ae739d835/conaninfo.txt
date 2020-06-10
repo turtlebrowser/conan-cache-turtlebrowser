@@ -17,7 +17,7 @@
     provider=system
 
 [recipe_hash]
-    cfde544c7e7c29445fb31acfb056d4f9
+    ddd950a21f18169366a53018e43b5cba
 
 [env]
 
