@@ -1,6 +1,6 @@
-1591737590
-FindHarfBuzz.cmake: 09632d66bd2fc54f615e73865e656e23
-conaninfo.txt: 55543b229fedc17b6ce75d5a4b0d5698
+1591874150
+FindHarfBuzz.cmake: 6269281cc02bab587cba65909a300905
+conaninfo.txt: 3a05fd488784d1261fd01b19a5d52bd5
 include/harfbuzz/hb-aat-layout.h: 58ef5674d8f3a95e64de98a54d3ed6aa
 include/harfbuzz/hb-aat.h: 24c72c8291790e6e96b1e5757645f2af
 include/harfbuzz/hb-blob.h: 3d543765c9e8f9dc2c77948d72a4c838
@@ -33,5 +33,5 @@ include/harfbuzz/hb-version.h: 2e40e65e155536f3badc5cc56a34dcac
 include/harfbuzz/hb.h: 48a60481e6504b0bdcab08ac6be6f448
 lib/cmake/harfbuzz/harfbuzzConfig-release.cmake: d4e8fd9967d7ba23a202a0092a3c954e
 lib/cmake/harfbuzz/harfbuzzConfig.cmake: 25bb9ca8b60e90614941cf5377446d54
-lib/harfbuzz.lib: 70f0df06cf3f0acecd0d9f0643cf9393
+lib/harfbuzz.lib: b4f53fc1f639df3c243dd0410fa67b32
 licenses/COPYING: 8f787620b7d3866d9552fd1924c07572

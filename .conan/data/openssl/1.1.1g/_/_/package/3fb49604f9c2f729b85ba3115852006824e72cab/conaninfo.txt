@@ -12,6 +12,7 @@
 [options]
     386=False
     capieng_dialog=False
+    enable_capieng=False
     no_asm=False
     no_async=False
     no_bf=False
@@ -45,6 +46,7 @@
 [full_options]
     386=False
     capieng_dialog=False
+    enable_capieng=False
     no_asm=False
     no_async=False
     no_bf=False
@@ -65,7 +67,7 @@
     shared=False
 
 [recipe_hash]
-    d238458d67c0acb90825339e628b63c6
+    c20b99b57564ea1e2342c22711441d2f
 
 [env]
 

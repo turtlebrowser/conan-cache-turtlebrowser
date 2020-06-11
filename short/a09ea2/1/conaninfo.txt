@@ -210,6 +210,7 @@
     opengl:provider=system
     openssl:386=False
     openssl:capieng_dialog=False
+    openssl:enable_capieng=False
     openssl:no_asm=False
     openssl:no_async=False
     openssl:no_bf=False
@@ -252,7 +253,7 @@
     zstd:shared=False
 
 [recipe_hash]
-    2776f94c7a083550c5ce6e39f57cb69f
+    6e3cf3152d6c41177f0412fb81497a1d
 
 [env]
 
