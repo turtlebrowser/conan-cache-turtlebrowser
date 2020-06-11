@@ -1,0 +1,28 @@
+[settings]
+    arch_build=x86_64
+    os_build=Windows
+
+[requires]
+
+
+[options]
+
+
+[full_settings]
+    arch_build=x86_64
+    compiler=Visual Studio
+    compiler.runtime=MTd
+    compiler.version=14
+    os_build=Windows
+
+[full_requires]
+
+
+[full_options]
+
+
+[recipe_hash]
+    e2ed38224348da1b0e31223aae547690
+
+[env]
+

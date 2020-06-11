@@ -1,0 +1,16 @@
+1589963268
+bin/ldrdf.exe: a2357fd66428ade62e723747c4d4cad9
+bin/nasm.exe: f1226c3ef6fc597091e37ff71f651aa9
+bin/nasmw.exe: f1226c3ef6fc597091e37ff71f651aa9
+bin/ndisasm.exe: 878bf9fe365705aa1f12074009db731d
+bin/ndisasmw.exe: 878bf9fe365705aa1f12074009db731d
+bin/rdf2bin.exe: 26df7935c8206975e7df249df517dbdc
+bin/rdf2com.exe: 26df7935c8206975e7df249df517dbdc
+bin/rdf2ihx.exe: 26df7935c8206975e7df249df517dbdc
+bin/rdf2ith.exe: 26df7935c8206975e7df249df517dbdc
+bin/rdf2srec.exe: 26df7935c8206975e7df249df517dbdc
+bin/rdfdump.exe: 717b14b76d28d73d7d302607855cfe58
+bin/rdflib.exe: fa844b7cb218b5780afaadcbb53d2b02
+bin/rdx.exe: a43c740b8fa8120a842965d90432a025
+conaninfo.txt: 7a6649b9903ec716d793051199c793a8
+licenses/LICENSE: 90904486f8fbf1861cf42752e1a39efe
