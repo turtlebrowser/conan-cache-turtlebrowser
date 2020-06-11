@@ -1,16 +1,16 @@
-1589963268
-bin/ldrdf.exe: a2357fd66428ade62e723747c4d4cad9
-bin/nasm.exe: f1226c3ef6fc597091e37ff71f651aa9
-bin/nasmw.exe: f1226c3ef6fc597091e37ff71f651aa9
-bin/ndisasm.exe: 878bf9fe365705aa1f12074009db731d
-bin/ndisasmw.exe: 878bf9fe365705aa1f12074009db731d
-bin/rdf2bin.exe: 26df7935c8206975e7df249df517dbdc
-bin/rdf2com.exe: 26df7935c8206975e7df249df517dbdc
-bin/rdf2ihx.exe: 26df7935c8206975e7df249df517dbdc
-bin/rdf2ith.exe: 26df7935c8206975e7df249df517dbdc
-bin/rdf2srec.exe: 26df7935c8206975e7df249df517dbdc
-bin/rdfdump.exe: 717b14b76d28d73d7d302607855cfe58
-bin/rdflib.exe: fa844b7cb218b5780afaadcbb53d2b02
-bin/rdx.exe: a43c740b8fa8120a842965d90432a025
-conaninfo.txt: 7a6649b9903ec716d793051199c793a8
+1591893696
+bin/ldrdf.exe: c4e87ccd1984dc002332fdbddf362495
+bin/nasm.exe: 91d180592aa50517cc11a06af6db05a3
+bin/nasmw.exe: 91d180592aa50517cc11a06af6db05a3
+bin/ndisasm.exe: 19e8b58bc653c6dee8ab926a90754dba
+bin/ndisasmw.exe: 19e8b58bc653c6dee8ab926a90754dba
+bin/rdf2bin.exe: b8b91bc5b830a5cb145c6240d417e5fb
+bin/rdf2com.exe: b8b91bc5b830a5cb145c6240d417e5fb
+bin/rdf2ihx.exe: b8b91bc5b830a5cb145c6240d417e5fb
+bin/rdf2ith.exe: b8b91bc5b830a5cb145c6240d417e5fb
+bin/rdf2srec.exe: b8b91bc5b830a5cb145c6240d417e5fb
+bin/rdfdump.exe: fb078157e5f30d8047857096ab858442
+bin/rdflib.exe: f1d440c7f7b4dfb3894cddd95f2c52a5
+bin/rdx.exe: d5716d4890533d0bd407f42279895ac7
+conaninfo.txt: 098220a5b4d46cd88dc2cfb1311a6903
 licenses/LICENSE: 90904486f8fbf1861cf42752e1a39efe
