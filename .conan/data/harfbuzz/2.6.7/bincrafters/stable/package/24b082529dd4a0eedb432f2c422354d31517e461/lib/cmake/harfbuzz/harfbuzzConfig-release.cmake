@@ -9,7 +9,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set_property(TARGET harfbuzz::harfbuzz APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(harfbuzz::harfbuzz PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "freetype;png16;bz2;z;m;/home/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/freetype/2.10.1/_/_/package/3cdd93cd46fc07735d1b0d7f2860a82fac7a3053/lib/libfreetype.a"
+  IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "freetype;png16;bz2;z;m;/Code/release/.conan/data/freetype/2.10.1/_/_/package/3cdd93cd46fc07735d1b0d7f2860a82fac7a3053/lib/libfreetype.a"
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libharfbuzz.a"
   )
 

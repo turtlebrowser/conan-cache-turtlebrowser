@@ -1,0 +1,13 @@
+prefix=/Code/release/.conan/data/qt/5.15.0/bincrafters/stable/package/7533a787d9357389f4767e9e1cf992fd494c85c5
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 DBus
+Description: Qt DBus module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5DBus 
+Cflags: -DQT_DBUS_LIB -I${includedir}/QtDBus -I${includedir}
+Requires: Qt5Core
+
