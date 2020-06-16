@@ -1,6 +1,6 @@
-1582044669
-bin/pg_config: 44396209bc973c9ab782efdc73a1e7d0
-conaninfo.txt: 7564275191cc4df218bbdba7c1cf2edc
+1592234292
+bin/pg_config: a0f6a48b67839beafa97756c2369d930
+conaninfo.txt: 04ea0c1c823cd1b32b317b7ca087dd33
 include/catalog/binary_upgrade.h: a09d9ecdda4330016d12a09c8ae2c5d0
 include/catalog/catalog.h: 88990d2a6ecedc0115b6104639cb8e64
 include/catalog/catversion.h: 35708fe33e0f5e533664f3e5c921671f
@@ -157,9 +157,6 @@ include/postgresql/internal/libpq/pqcomm.h: eb6be60350a0589a73a212ec93652217
 include/postgresql/internal/port.h: 3130b84adae42a95f71fc047989660a9
 include/postgresql/internal/postgres_fe.h: a9cc6a1d638de1aa64d0ea858700b82e
 include/postgresql/internal/pqexpbuffer.h: a0f515b03620842a4f3806e577ae8910
-lib/libpgcommon.a: e8b97db79671d16ea5ab72e51ba2cc02
-lib/libpq.a: 22b4a8c72756f4b2a5cffe24998d6830
-lib/libpq.so: 80f3c7fe9cdfedf01ba15ee6557200c7
-lib/libpq.so.5: 80f3c7fe9cdfedf01ba15ee6557200c7
-lib/libpq.so.5.11: 80f3c7fe9cdfedf01ba15ee6557200c7
+lib/libpgcommon.a: 76b6f17725cbdab5a407c39c8eef5d84
+lib/libpq.a: b8601399be605f7862636de4c24e6eb5
 licenses/COPYRIGHT: 87da2b84884860b71f5f24ab37e7da78

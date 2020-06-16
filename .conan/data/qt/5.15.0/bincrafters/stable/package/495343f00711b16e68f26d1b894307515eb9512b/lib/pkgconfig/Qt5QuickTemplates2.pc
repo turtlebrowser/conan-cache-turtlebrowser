@@ -1,0 +1,13 @@
+prefix=/Code/release/.conan/data/qt/5.15.0/bincrafters/stable/package/495343f00711b16e68f26d1b894307515eb9512b
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 QuickTemplates2
+Description: Qt QuickTemplates2 module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5QuickTemplates2 
+Cflags: -DQT_QUICKTEMPLATES2_LIB -I${includedir}/QtQuickTemplates2 -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Quick Qt5QmlModels
+
