@@ -147,7 +147,7 @@ class QtConan(ConanFile):
             if not tools.which('pkg-config'):
                 self.build_requires('pkg-config_installer/0.29.2@bincrafters/stable')
         if self.options.qtwebengine:
-            self.build_requires("ninja/1.9.0")
+            self.build_requires("ninja/1.10.0")
             # gperf, bison, flex, python >= 2.7.5 & < 3
             if self.settings.os != "Windows":
                 if not tools.which("bison"):
@@ -205,6 +205,9 @@ class QtConan(ConanFile):
             self.options.with_icu = False
 
     def configure(self):
+        if self.settings.compiler in ["gcc", "clang"]:
+            if tools.Version(self.settings.compiler.version) < "5.0":
+                raise ConanInvalidConfiguration("qt 5.15.0 is not support on GCC or clang before 5.0")
         if conan_version < Version("1.20.0"):
             raise ConanInvalidConfiguration("This recipe needs at least conan 1.20.0, please upgrade.")
         if self.settings.os != 'Linux':
@@ -345,7 +348,7 @@ class QtConan(ConanFile):
             self.requires("opus/1.3.1")
 
         if self.options.opengl in ["desktop", "es2"]:
-            self.requires('opengl/virtual@bincrafters/stable')
+            self.requires('opengl/system')
 
     def system_requirements(self):
         pack_names = []
@@ -693,10 +696,18 @@ class QtConan(ConanFile):
         with open(os.path.join(self.package_folder, "bin", "qt.conf"), 'w') as f:
             f.write('[Paths]\nPrefix = ..\n')
         self.copy("*LICENSE*", src="qt5/", dst="licenses")
+        for module in self._submodules:
+            if module != 'qtbase' and not getattr(self.options, module):
+                tools.rmdir(os.path.join(self.package_folder, "licenses", module))
 
     def package_id(self):
         del self.info.options.cross_compile
         del self.info.options.sysroot
+        if self.options.multiconfiguration and self.settings.compiler == "Visual Studio":
+            if "MD" in self.settings.compiler.runtime:
+                self.info.settings.compiler.runtime = "MD/MDd"
+            else:
+                self.info.settings.compiler.runtime = "MT/MTd"
 
     def package_info(self):
         self.env_info.CMAKE_PREFIX_PATH.append(self.package_folder)

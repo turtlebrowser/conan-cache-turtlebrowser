@@ -1,0 +1,13 @@
+prefix=/Users/runner/runners/2.263.0/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.0/bincrafters/stable/package/256039f4941f95103b2f7ab141f2d0d0703d747c
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 QuickWidgets
+Description: Qt QuickWidgets module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5QuickWidgets 
+Cflags: -DQT_QUICKWIDGETS_LIB -I${includedir}/QtQuickWidgets -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Qml Qt5Quick Qt5Widgets
+
