@@ -1,0 +1,28 @@
+[settings]
+    arch=x86_64
+    os=Windows
+
+[requires]
+
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    compiler=Visual Studio
+    compiler.runtime=MT
+    compiler.version=16
+    os=Windows
+
+[full_requires]
+
+
+[full_options]
+
+
+[recipe_hash]
+    3931d0d9c2d2df6551702798ae00538b
+
+[env]
+
