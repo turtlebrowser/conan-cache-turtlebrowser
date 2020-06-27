@@ -1,4 +1,4 @@
-1589807568
+1593075397
 bin/freetype-config: 5c8f7268ccd3614a29996bdd1c2e2dfb
 conaninfo.txt: 5b72d2180c9079d87cb8fb29b9d1ef92
 include/freetype2/freetype/config/ftconfig.h: 2486e5bab35dac25d3137421289da448
@@ -51,7 +51,7 @@ include/freetype2/freetype/ttnameid.h: 1af29c9a5122c229f1b58c0027eec3fe
 include/freetype2/freetype/tttables.h: 5ecb3e7bd07073658ec2f8cd48e6918e
 include/freetype2/freetype/tttags.h: b98c0dbfc570dcf13940feb288f59e70
 include/freetype2/ft2build.h: edd3eba031b74b7f298eae017797fd7a
-lib/libfreetype.a: 17cf91d2c7c006d67bc3b880975b0c93
+lib/libfreetype.a: b26e04b691b82d9616701022a9b1f0a1
 licenses/FTL.TXT: 9f37b4e6afa3fef9dba8932b16bd3f97
 licenses/GPLv2.TXT: 8ef380476f642c20ebf40fecb0add2ec
 licenses/LICENSE.TXT: 4af6221506f202774ef74f64932878a1
