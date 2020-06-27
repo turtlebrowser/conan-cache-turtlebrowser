@@ -1,0 +1,10 @@
+^D:\A\TURTLEBROWSER\TURTLEBROWSER\RELEASE\SHORT\DE7DE2\1\BUILD_SUBFOLDER\CMAKEFILES\5A3FF04F665093758F3E4575A5EE8B54\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

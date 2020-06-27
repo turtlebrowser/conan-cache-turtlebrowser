@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-number.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-ot-cff1-table.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-ot-cff2-table.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-static.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset-cff-common.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset-cff1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset-cff2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset-input.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset-plan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-number.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset-cff-common.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset-cff1.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset-cff2.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset-input.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset-plan.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\src\hb-subset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\a\turtlebrowser\turtlebrowser\release\short\de7de2\1\source_subfolder\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C1CF1CBA-DFEF-38D2-9507-946E52F4DB99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{57D9B466-BFC4-3FEC-8584-4DE467FE1245}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
