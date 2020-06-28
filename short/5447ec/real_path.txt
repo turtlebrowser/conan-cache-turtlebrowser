@@ -1,0 +1,1 @@
+c:\release\.conan\data\harfbuzz\2.6.7\bincrafters\stable\export_source

@@ -51,7 +51,7 @@
     threadsafe=1
 
 [recipe_hash]
-    308789f011851b1ba15ef869885e71e3
+    302c5b2394bacdde25faefc4cb9b24f4
 
 [env]
 

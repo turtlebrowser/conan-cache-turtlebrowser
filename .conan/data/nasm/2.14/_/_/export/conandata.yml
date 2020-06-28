@@ -1,4 +1,0 @@
-sources:
-  '2.14':
-    sha256: 66305119c8adafa39fb403d2f335ed297579ddc7c7cf79f00c10433691006432
-    url: http://www.nasm.us/pub/nasm/releasebuilds/2.14/nasm-2.14.tar.gz
