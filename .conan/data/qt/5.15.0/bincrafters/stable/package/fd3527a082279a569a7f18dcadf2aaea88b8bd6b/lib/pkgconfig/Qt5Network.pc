@@ -1,0 +1,13 @@
+prefix=/Code/release/.conan/data/qt/5.15.0/bincrafters/stable/package/fd3527a082279a569a7f18dcadf2aaea88b8bd6b
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Network
+Description: Qt Network module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5Network 
+Cflags: -DQT_NETWORK_LIB -I${includedir}/QtNetwork -I${includedir}
+Requires: Qt5Core
+
