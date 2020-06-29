@@ -1,4 +1,4 @@
-prefix=/Users/runner/runners/2.263.0/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.0/bincrafters/stable/package/256039f4941f95103b2f7ab141f2d0d0703d747c
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.0/bincrafters/stable/package/256039f4941f95103b2f7ab141f2d0d0703d747c
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include

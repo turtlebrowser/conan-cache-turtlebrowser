@@ -9,7 +9,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set_property(TARGET harfbuzz::harfbuzz APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(harfbuzz::harfbuzz PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "freetype;png16;bz2;z;/Users/runner/runners/2.263.0/work/turtlebrowser/turtlebrowser/release/.conan/data/freetype/2.10.1/_/_/package/9fbc622fdb9d2462147cf446a56b1688bf016d05/lib/libfreetype.a;/Applications/Xcode_11.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework"
+  IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "freetype;png16;bz2;z;/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/freetype/2.10.1/_/_/package/9fbc622fdb9d2462147cf446a56b1688bf016d05/lib/libfreetype.a;/Applications/Xcode_11.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework"
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libharfbuzz.a"
   )
 
