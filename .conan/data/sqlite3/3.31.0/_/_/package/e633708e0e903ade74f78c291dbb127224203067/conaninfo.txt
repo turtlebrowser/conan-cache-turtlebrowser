@@ -14,15 +14,18 @@
     enable_column_metadata=True
     enable_explain_comments=False
     enable_fts3=False
+    enable_fts3_parenthesis=False
     enable_fts4=False
     enable_fts5=False
     enable_json1=False
     enable_rtree=True
+    enable_soundex=False
     enable_unlock_notify=True
     fPIC=True
     omit_load_extension=False
     shared=False
     threadsafe=1
+    use_alloca=False
 
 [full_settings]
     arch=x86_64
@@ -40,18 +43,21 @@
     enable_column_metadata=True
     enable_explain_comments=False
     enable_fts3=False
+    enable_fts3_parenthesis=False
     enable_fts4=False
     enable_fts5=False
     enable_json1=False
     enable_rtree=True
+    enable_soundex=False
     enable_unlock_notify=True
     fPIC=True
     omit_load_extension=False
     shared=False
     threadsafe=1
+    use_alloca=False
 
 [recipe_hash]
-    302c5b2394bacdde25faefc4cb9b24f4
+    258770aab4d66514e1de1a9f75fbe720
 
 [env]
 
