@@ -1,0 +1,33 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=11.0
+    os=Macos
+
+[requires]
+
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=11.0
+    os=Macos
+
+[full_requires]
+
+
+[full_options]
+
+
+[recipe_hash]
+    bf95eafb34c9ba176ca99d6712968b3e
+
+[env]
+

@@ -227,6 +227,9 @@ class QtConan(ConanFile):
             self.options.with_libalsa = False
             self.options.with_openal = False
 
+        if self.options.qtmultimedia and not self.options.GUI:
+            raise ConanInvalidConfiguration("Qt multimedia cannot be used without GUI")
+
         if self.settings.os != "Linux":
             self.options.with_libalsa = False
 
@@ -294,7 +297,7 @@ class QtConan(ConanFile):
         if self.options.with_icu:
             self.requires("icu/64.2")
         if self.options.with_harfbuzz and not self.options.multiconfiguration:
-            self.requires("harfbuzz/2.6.7@bincrafters/stable")
+            self.requires("harfbuzz/2.6.8@")
         if self.options.with_libjpeg and not self.options.multiconfiguration:
             self.requires("libjpeg/9d")
         if self.options.with_libpng and not self.options.multiconfiguration:

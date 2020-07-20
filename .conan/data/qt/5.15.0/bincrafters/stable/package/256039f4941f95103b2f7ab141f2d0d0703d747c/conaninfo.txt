@@ -106,7 +106,7 @@
     bzip2/1.0.8:32bef4803d4b079e983ecb27f105881e778bc5a7
     double-conversion/3.1.5:eec6acc43f6348a597c20e5bd28d9e0590a02597
     freetype/2.10.1:9fbc622fdb9d2462147cf446a56b1688bf016d05
-    harfbuzz/2.6.7@bincrafters/stable:782bd26019daaaa6e0984ffabd10aa8ada93b2d4
+    harfbuzz/2.6.8:782bd26019daaaa6e0984ffabd10aa8ada93b2d4
     libiconv/1.16:f74366f76f700cc6e991285892ad7a23c30e6d47
     libjpeg/9d:f74366f76f700cc6e991285892ad7a23c30e6d47
     libmysqlclient/8.0.17:b0ee03fd738ec68ea4c1dc5413bfe7a9cdded04e
@@ -259,15 +259,18 @@
     sqlite3:enable_column_metadata=True
     sqlite3:enable_explain_comments=False
     sqlite3:enable_fts3=False
+    sqlite3:enable_fts3_parenthesis=False
     sqlite3:enable_fts4=False
     sqlite3:enable_fts5=False
     sqlite3:enable_json1=False
     sqlite3:enable_rtree=True
+    sqlite3:enable_soundex=False
     sqlite3:enable_unlock_notify=True
     sqlite3:fPIC=True
     sqlite3:omit_load_extension=False
     sqlite3:shared=False
     sqlite3:threadsafe=1
+    sqlite3:use_alloca=False
     zlib:fPIC=True
     zlib:minizip=False
     zlib:shared=False
@@ -275,7 +278,7 @@
     zstd:shared=False
 
 [recipe_hash]
-    2d020fafd40d5a2dbdfc2de78ab9250d
+    d2eda27f14eb74b8e9b403e89b3bf972
 
 [env]
 
