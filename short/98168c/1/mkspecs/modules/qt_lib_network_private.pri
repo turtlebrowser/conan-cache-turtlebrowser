@@ -9,5 +9,5 @@ QT.network_private.uses = openssl
 QT.network_private.module_config = v2 internal_module
 QT.network_private.enabled_features = openssl-linked openssl netlistmgr system-proxies
 QT.network_private.disabled_features = libproxy linux-netlink
-QMAKE_LIBS_OPENSSL = -llibssl -llibcrypto -lcrypt32 -lmsi -lws2_32 -ladvapi32 -luser32 -lgdi32
+QMAKE_LIBS_OPENSSL = -llibssl -llibcrypto -lcrypt32 -lws2_32 -ladvapi32 -luser32
 QMAKE_LIBS_NETWORK = ws2_32.lib
