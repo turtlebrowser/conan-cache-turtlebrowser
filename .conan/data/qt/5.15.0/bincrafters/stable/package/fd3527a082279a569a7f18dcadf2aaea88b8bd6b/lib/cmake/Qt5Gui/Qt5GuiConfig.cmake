@@ -169,10 +169,10 @@ if (NOT TARGET Qt5::Gui)
                  opengles2;dynamicgl;angle;combined-angle-lib;opengles3;opengles31;opengles32;openvg;system-textmarkdownreader;vulkan)
     set_property(TARGET Qt5::Gui
                  PROPERTY QT_ENABLED_PRIVATE_FEATURES
-                 xkbcommon;xkbcommon-x11;xcb;accessibility-atspi-bridge;drm_atomic;egl;egl_x11;eglfs;kms;eglfs_egldevice;eglfs_gbm;xlib;xcb-xlib;eglfs_x11;evdev;freetype;system-freetype;fontconfig;gif;harfbuzz;ico;jpeg;libinput;libinput-axis-api;linuxfb;mtdev;multiprocess;png;raster-64bit;system-harfbuzz;system-jpeg;system-png;tuiotouch;vkgen;vnc;xcb-egl-plugin;xcb-glx-plugin;xcb-glx;xcb-sm)
+                 xkbcommon;drm_atomic;evdev;freetype;system-freetype;fontconfig;gif;harfbuzz;ico;jpeg;kms;linuxfb;multiprocess;png;raster-64bit;system-harfbuzz;system-jpeg;system-png;tuiotouch;vkgen;vnc;xlib;xcb-xlib)
     set_property(TARGET Qt5::Gui
                  PROPERTY QT_DISABLED_PRIVATE_FEATURES
-                 angle_d3d11_qdtd;direct2d;direct2d1_1;dxgi;direct3d11;direct3d11_1;direct3d9;directfb;dxgi1_2;dxguid;eglfs_brcm;eglfs_mali;eglfs_openwfd;eglfs_rcar;eglfs_viv;eglfs_viv_wl;vsp2;eglfs_vsp2;integrityfb;integrityhid;system-xcb-xinput;tslib;xcb-native-painting)
+                 xkbcommon-x11;xcb;accessibility-atspi-bridge;angle_d3d11_qdtd;direct2d;direct2d1_1;dxgi;direct3d11;direct3d11_1;direct3d9;directfb;dxgi1_2;dxguid;egl;egl_x11;eglfs;eglfs_brcm;eglfs_egldevice;eglfs_gbm;eglfs_mali;eglfs_openwfd;eglfs_rcar;eglfs_viv;eglfs_viv_wl;eglfs_vsp2;eglfs_x11;integrityfb;integrityhid;libinput;libinput-axis-api;mtdev;tslib;vsp2)
 
     set_property(TARGET Qt5::Gui PROPERTY INTERFACE_QT_PLUGIN_TYPES "platforms;platforms/darwin;xcbglintegrations;platformthemes;platforminputcontexts;generic;iconengines;imageformats;egldeviceintegrations")
 

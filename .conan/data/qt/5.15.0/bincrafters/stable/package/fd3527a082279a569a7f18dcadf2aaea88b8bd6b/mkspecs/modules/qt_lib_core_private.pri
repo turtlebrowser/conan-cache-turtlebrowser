@@ -13,6 +13,6 @@ QMAKE_DEPENDS_ICU_CC = LIBDL
 QMAKE_DEPENDS_ICU_LD = LIBDL
 QMAKE_LIBS_LIBRT = 
 QMAKE_LIBS_ICU = -licui18n -licuio -licutest -licutu -licuuc -licudata -ldl -lpthread
-QMAKE_LIBS_PCRE2 = -lpcre2-posix -lpcre2-8 -lpcre2-16 -lpcre2-32 -lz -lbz2
+QMAKE_LIBS_PCRE2 = -lpcre2-16
 QMAKE_LIBS_LIBATOMIC = 
 QMAKE_LIBS_DOUBLECONVERSION = -ldouble-conversion

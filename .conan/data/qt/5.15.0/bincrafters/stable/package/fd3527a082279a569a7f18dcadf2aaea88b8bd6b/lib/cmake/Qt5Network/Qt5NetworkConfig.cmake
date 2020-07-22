@@ -157,16 +157,16 @@ if (NOT TARGET Qt5::Network)
     set_property(TARGET Qt5::Network PROPERTY
       INTERFACE_COMPILE_DEFINITIONS QT_NETWORK_LIB)
 
-    set_property(TARGET Qt5::Network PROPERTY INTERFACE_QT_ENABLED_FEATURES networkinterface;bearermanagement;dnslookup;udpsocket;dtls;ftp;gssapi;http;localserver;networkdiskcache;networkproxy;opensslv11;ocsp;socks5;ssl)
-    set_property(TARGET Qt5::Network PROPERTY INTERFACE_QT_DISABLED_FEATURES securetransport;schannel;sctp;sspi)
+    set_property(TARGET Qt5::Network PROPERTY INTERFACE_QT_ENABLED_FEATURES networkinterface;bearermanagement;dnslookup;udpsocket;dtls;ftp;http;localserver;networkdiskcache;networkproxy;opensslv11;ocsp;socks5;ssl)
+    set_property(TARGET Qt5::Network PROPERTY INTERFACE_QT_DISABLED_FEATURES securetransport;schannel;gssapi;sctp;sspi)
 
     # Qt 6 forward compatible properties.
     set_property(TARGET Qt5::Network
                  PROPERTY QT_ENABLED_PUBLIC_FEATURES
-                 networkinterface;bearermanagement;dnslookup;udpsocket;dtls;ftp;gssapi;http;localserver;networkdiskcache;networkproxy;opensslv11;ocsp;socks5;ssl)
+                 networkinterface;bearermanagement;dnslookup;udpsocket;dtls;ftp;http;localserver;networkdiskcache;networkproxy;opensslv11;ocsp;socks5;ssl)
     set_property(TARGET Qt5::Network
                  PROPERTY QT_DISABLED_PUBLIC_FEATURES
-                 securetransport;schannel;sctp;sspi)
+                 securetransport;schannel;gssapi;sctp;sspi)
     set_property(TARGET Qt5::Network
                  PROPERTY QT_ENABLED_PRIVATE_FEATURES
                  openssl-linked;openssl;linux-netlink;system-proxies)

@@ -12,5 +12,5 @@ QT.printsupport.module_config = v2
 QT.printsupport.DEFINES = QT_PRINTSUPPORT_LIB
 QT.printsupport.enabled_features = printer printdialog printpreviewwidget printpreviewdialog
 QT.printsupport.disabled_features =
-QT_CONFIG += printer cups cupsjobwidget printdialog printpreviewwidget printpreviewdialog
+QT_CONFIG += printer printdialog printpreviewwidget printpreviewdialog
 QT_MODULES += printsupport

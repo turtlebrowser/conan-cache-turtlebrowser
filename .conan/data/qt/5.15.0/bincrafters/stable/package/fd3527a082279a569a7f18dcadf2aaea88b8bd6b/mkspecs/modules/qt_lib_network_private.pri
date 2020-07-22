@@ -11,4 +11,3 @@ QT.network_private.enabled_features = openssl-linked openssl linux-netlink syste
 QT.network_private.disabled_features = libproxy netlistmgr
 QMAKE_LIBS_OPENSSL = -lssl -lcrypto -ldl -lpthread
 QMAKE_LIBS_NETWORK = 
-QMAKE_LIBS_GSSAPI = -L/usr/lib/x86_64-linux-gnu/mit-krb5 -lgssapi_krb5

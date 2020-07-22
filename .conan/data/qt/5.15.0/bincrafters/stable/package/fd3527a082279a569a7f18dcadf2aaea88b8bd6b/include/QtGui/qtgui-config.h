@@ -1,4 +1,5 @@
 #define QT_FEATURE_accessibility 1
+#define QT_NO_ACCESSIBILITY_ATSPI_BRIDGE 
 #define QT_FEATURE_action 1
 #define QT_FEATURE_opengles2 -1
 #define QT_FEATURE_dynamicgl -1
@@ -12,6 +13,7 @@
 #define QT_FEATURE_imageformat_xpm 1
 #define QT_FEATURE_draganddrop 1
 #define QT_FEATURE_opengl 1
+#define QT_NO_EGL 
 #define QT_FEATURE_imageformatplugin 1
 #define QT_FEATURE_highdpiscaling 1
 #define QT_FEATURE_im 1

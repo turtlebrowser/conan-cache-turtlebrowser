@@ -3,5 +3,4 @@
 #include <QtCore/QtCore>
 #include <QtGui/QtGui>
 #include <QtDeviceDiscoverySupport/QtDeviceDiscoverySupport>
-#include <QtXkbCommonSupport/QtXkbCommonSupport>
 #endif

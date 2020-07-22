@@ -7,7 +7,8 @@
 #define QT_FEATURE_udpsocket 1
 #define QT_FEATURE_dtls 1
 #define QT_FEATURE_ftp 1
-#define QT_FEATURE_gssapi 1
+#define QT_FEATURE_gssapi -1
+#define QT_NO_GSSAPI 
 #define QT_FEATURE_http 1
 #define QT_FEATURE_localserver 1
 #define QT_FEATURE_networkdiskcache 1

@@ -169,10 +169,10 @@ if (NOT TARGET Qt5::WebEngineCore)
                  webengine-native-spellchecker)
     set_property(TARGET Qt5::WebEngineCore
                  PROPERTY QT_ENABLED_PRIVATE_FEATURES
-                 webengine-alsa;webengine-printing-and-pdf;webengine-noexecstack;webengine-ozone-x11;webengine-pepper-plugins;webengine-pulseaudio;webengine-v8-snapshot-support;webengine-webrtc)
+                 webengine-printing-and-pdf;webengine-noexecstack;webengine-ozone-x11;webengine-pepper-plugins;webengine-v8-snapshot-support;webengine-webrtc)
     set_property(TARGET Qt5::WebEngineCore
                  PROPERTY QT_DISABLED_PRIVATE_FEATURES
-                 webengine-embedded-build;webengine-arm-thumb;webengine-kerberos;webengine-poppler-cpp;webengine-proprietary-codecs;webengine-sanitizer)
+                 webengine-alsa;webengine-embedded-build;webengine-arm-thumb;webengine-kerberos;webengine-poppler-cpp;webengine-proprietary-codecs;webengine-pulseaudio;webengine-sanitizer)
 
     set_property(TARGET Qt5::WebEngineCore PROPERTY INTERFACE_QT_PLUGIN_TYPES "")
 

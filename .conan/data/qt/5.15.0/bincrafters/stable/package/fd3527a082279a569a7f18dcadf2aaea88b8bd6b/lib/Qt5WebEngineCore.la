@@ -25,4 +25,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='=/Code/release/.conan/data/qt/5.15.0/bincrafters/stable/package/fd3527a082279a569a7f18dcadf2aaea88b8bd6b/lib'
+libdir='=/home/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.0/bincrafters/stable/package/fd3527a082279a569a7f18dcadf2aaea88b8bd6b/lib'

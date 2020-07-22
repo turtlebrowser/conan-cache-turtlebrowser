@@ -169,10 +169,10 @@ if (NOT TARGET Qt5::PrintSupport)
                  )
     set_property(TARGET Qt5::PrintSupport
                  PROPERTY QT_ENABLED_PRIVATE_FEATURES
-                 cups;cupsjobwidget)
+                 )
     set_property(TARGET Qt5::PrintSupport
                  PROPERTY QT_DISABLED_PRIVATE_FEATURES
-                 )
+                 cups;cupsjobwidget)
 
     set_property(TARGET Qt5::PrintSupport PROPERTY INTERFACE_QT_PLUGIN_TYPES "printsupport")
 

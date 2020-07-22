@@ -194,7 +194,7 @@ if (NOT TARGET Qt5::InputSupport)
 
     set(Qt5InputSupport_DEFINITIONS -DQT_INPUT_SUPPORT_LIB)
     set(Qt5InputSupport_COMPILE_DEFINITIONS QT_INPUT_SUPPORT_LIB)
-    set(_Qt5InputSupport_MODULE_DEPENDENCIES "XkbCommonSupport;Gui;DeviceDiscoverySupport;Core")
+    set(_Qt5InputSupport_MODULE_DEPENDENCIES "Gui;DeviceDiscoverySupport;Core")
 
 
     set(Qt5InputSupport_OWN_PRIVATE_INCLUDE_DIRS ${Qt5InputSupport_PRIVATE_INCLUDE_DIRS})
@@ -257,7 +257,7 @@ if (NOT TARGET Qt5::InputSupport)
         return()
     endif()
 
-    set(_Qt5InputSupport_LIB_DEPENDENCIES "Qt5::XkbCommonSupport;Qt5::Gui;Qt5::DeviceDiscoverySupport;Qt5::Core")
+    set(_Qt5InputSupport_LIB_DEPENDENCIES "Qt5::Gui;Qt5::DeviceDiscoverySupport;Qt5::Core")
 
 
     if(NOT Qt5_EXCLUDE_STATIC_DEPENDENCIES)

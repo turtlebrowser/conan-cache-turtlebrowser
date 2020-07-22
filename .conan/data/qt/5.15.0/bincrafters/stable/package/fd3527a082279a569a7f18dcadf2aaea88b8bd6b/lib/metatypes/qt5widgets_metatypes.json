@@ -25012,45 +25012,5 @@
         ],
         "inputFile": "qundoview.cpp",
         "outputRevision": 67
-    },
-    {
-        "classes": [
-            {
-                "className": "QSystemTrayIconSys",
-                "object": true,
-                "qualifiedClassName": "QSystemTrayIconSys",
-                "superClasses": [
-                    {
-                        "access": "public",
-                        "name": "QWidget"
-                    }
-                ]
-            },
-            {
-                "className": "QSystemTrayWatcher",
-                "object": true,
-                "qualifiedClassName": "QSystemTrayWatcher",
-                "slots": [
-                    {
-                        "access": "private",
-                        "arguments": [
-                            {
-                                "type": "QScreen*"
-                            }
-                        ],
-                        "name": "systemTrayWindowChanged",
-                        "returnType": "void"
-                    }
-                ],
-                "superClasses": [
-                    {
-                        "access": "public",
-                        "name": "QObject"
-                    }
-                ]
-            }
-        ],
-        "inputFile": "qsystemtrayicon_x11.cpp",
-        "outputRevision": 67
     }
 ]

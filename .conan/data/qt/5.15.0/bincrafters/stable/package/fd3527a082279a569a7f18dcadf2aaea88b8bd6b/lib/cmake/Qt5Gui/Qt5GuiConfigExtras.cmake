@@ -82,7 +82,6 @@ macro(_qt5gui_find_extra_libs Name Libs LibDir IncDirs)
 endmacro()
 
 
-_qt5gui_find_extra_libs(EGL "EGL" "" "/usr/include/libdrm")
 
 _qt5gui_find_extra_libs(OPENGL "GL" "" "/usr/include/libdrm")
 
