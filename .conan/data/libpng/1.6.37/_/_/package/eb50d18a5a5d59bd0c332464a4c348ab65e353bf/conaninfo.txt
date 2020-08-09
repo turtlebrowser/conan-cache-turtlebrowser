@@ -32,7 +32,7 @@
     zlib:shared=False
 
 [recipe_hash]
-    d9c982d5fe77ec4d648905e24357ad3e
+    ec0ee995336c6509fec4ce9b5ee9d193
 
 [env]
 
