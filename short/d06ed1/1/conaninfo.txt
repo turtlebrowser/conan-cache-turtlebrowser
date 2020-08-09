@@ -27,7 +27,7 @@
 
 [full_requires]
     bzip2/1.0.8:d16a91eadaaf5829b928b12d2f836ff7680d3df5
-    freetype/2.10.1:2eda287fd36b7b010dea069857045000246077e3
+    freetype/2.10.2:2eda287fd36b7b010dea069857045000246077e3
     libpng/1.6.37:d140711d95cc16a85766a8fc3a551dfafe84cf63
     zlib/1.2.11:3fb49604f9c2f729b85ba3115852006824e72cab
 
@@ -50,7 +50,7 @@
     zlib:shared=False
 
 [recipe_hash]
-    5733395ae2752d74034dccb6a94e9be8
+    fc6fa205155cf10879dc45a5487afc5c
 
 [env]
 

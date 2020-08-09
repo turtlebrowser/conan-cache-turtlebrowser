@@ -191,6 +191,9 @@ class QtConan(ConanFile):
     def config_options(self):
         if self.settings.os != "Linux":
             self.options.with_icu = False
+        if self.settings.compiler == "apple-clang":
+            if tools.Version(self.settings.compiler.version) < "10.0":
+                raise ConanInvalidConfiguration("Old versions of apple sdk are not supported by Qt (QTBUG-76777)")
 
     def configure(self):
         if self.settings.compiler in ["gcc", "clang"]:
@@ -291,7 +294,7 @@ class QtConan(ConanFile):
         if self.options.with_doubleconversion and not self.options.multiconfiguration:
             self.requires("double-conversion/3.1.5")
         if self.options.with_freetype and not self.options.multiconfiguration:
-            self.requires("freetype/2.10.1")
+            self.requires("freetype/2.10.2")
         if self.options.with_fontconfig:
             self.requires("fontconfig/2.13.91")
         if self.options.with_icu:
@@ -320,6 +323,8 @@ class QtConan(ConanFile):
             self.requires("libalsa/1.1.9")
         if self.options.GUI and self.settings.os == "Linux":
             self.requires("xorg/system")
+            if not tools.cross_building(self, skip_x64_x86=True):
+                self.requires("xkbcommon/0.10.0")
         if self.options.with_zstd:
             self.requires("zstd/1.4.4")
         if self.options.qtwebengine and self.settings.os == "Linux":
@@ -554,7 +559,8 @@ class QtConan(ConanFile):
                   ("sdl2", "SDL2"),
                   ("openal", "OPENAL"),
                   ("zstd", "ZSTD"),
-                  ("libalsa", "ALSA")]
+                  ("libalsa", "ALSA"),
+                  ("xkbcommon", "XKBCOMMON")]
         for package, var in libmap:
             if package in self.deps_cpp_info.deps:
                 if package == 'freetype':
@@ -677,6 +683,8 @@ class QtConan(ConanFile):
             yield element
 
     def _gather_libs(self, p):
+        if not p in self.deps_cpp_info.deps:
+            return []
         libs = ["-l" + i for i in self.deps_cpp_info[p].libs + self.deps_cpp_info[p].system_libs]
         if tools.is_apple_os(self.settings.os):
             libs += ["-framework " + i for i in self.deps_cpp_info[p].frameworks]
@@ -684,15 +692,3 @@ class QtConan(ConanFile):
         for dep in self.deps_cpp_info[p].public_deps:
             libs += self._gather_libs(dep)
         return self._remove_duplicate(libs)
-
-    def _gather_lib_paths(self, p):
-        lib_paths = self.deps_cpp_info[p].lib_paths
-        for dep in self.deps_cpp_info[p].public_deps:
-            lib_paths += self._gather_lib_paths(dep)
-        return self._remove_duplicate(lib_paths)
-
-    def _gather_include_paths(self, p):
-        include_paths = self.deps_cpp_info[p].include_paths
-        for dep in self.deps_cpp_info[p].public_deps:
-            include_paths += self._gather_include_paths(dep)
-        return self._remove_duplicate(include_paths)

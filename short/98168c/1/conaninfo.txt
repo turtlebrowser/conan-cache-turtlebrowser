@@ -103,7 +103,7 @@
 [full_requires]
     bzip2/1.0.8:d16a91eadaaf5829b928b12d2f836ff7680d3df5
     double-conversion/3.1.5:3fb49604f9c2f729b85ba3115852006824e72cab
-    freetype/2.10.1:2eda287fd36b7b010dea069857045000246077e3
+    freetype/2.10.2:2eda287fd36b7b010dea069857045000246077e3
     harfbuzz/2.6.8:1d32cac50825a75ae2bfa6b7fc399aed5db2835f
     libjpeg/9d:3fb49604f9c2f729b85ba3115852006824e72cab
     libpng/1.6.37:d140711d95cc16a85766a8fc3a551dfafe84cf63
@@ -255,7 +255,7 @@
     zstd:shared=False
 
 [recipe_hash]
-    d2eda27f14eb74b8e9b403e89b3bf972
+    46cca7e54b1a426aa7d0eef00eeca6b2
 
 [env]
 
