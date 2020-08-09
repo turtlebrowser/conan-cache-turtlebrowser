@@ -27,14 +27,14 @@
 # etc.  If ICU is not installed in this directory, you must change the
 # following line.  There should exist $(prefix)/include/unicode/utypes.h
 # for example.
-prefix = /tmp/c3ipr/pr_1675_11_0_9/.conan/data/icu/64.2/_/_/package/d8ebc772a721a37c9b33886cbbc9fe31fda9882b
+prefix = /home/conan/workspace/cci_PR-2320/7/0_9/.conan/data/icu/64.2/_/_/package/d8ebc772a721a37c9b33886cbbc9fe31fda9882b
 exec_prefix = ${prefix}
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 bindir = ${exec_prefix}/bin
-datarootdir = /tmp/c3ipr/pr_1675_11_0_9/.conan/data/icu/64.2/_/_/package/d8ebc772a721a37c9b33886cbbc9fe31fda9882b/lib
+datarootdir = /home/conan/workspace/cci_PR-2320/7/0_9/.conan/data/icu/64.2/_/_/package/d8ebc772a721a37c9b33886cbbc9fe31fda9882b/lib
 datadir = ${datarootdir}
-sbindir = /tmp/c3ipr/pr_1675_11_0_9/.conan/data/icu/64.2/_/_/package/d8ebc772a721a37c9b33886cbbc9fe31fda9882b/bin
+sbindir = /home/conan/workspace/cci_PR-2320/7/0_9/.conan/data/icu/64.2/_/_/package/d8ebc772a721a37c9b33886cbbc9fe31fda9882b/bin
 
 # about the ICU version
 VERSION = 64.2
