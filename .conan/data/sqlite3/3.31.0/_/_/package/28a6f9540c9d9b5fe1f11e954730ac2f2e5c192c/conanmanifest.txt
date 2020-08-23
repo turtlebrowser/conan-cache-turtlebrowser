@@ -1,7 +1,7 @@
-1597229135
-bin/sqlite3.exe: 9cf4377eb1c671365d0ca5f4d7af1179
-conaninfo.txt: 6a85e1ac9087adae0fae2b2272a8b813
+1597682007
+bin/sqlite3.exe: b9059d2661dab10e138ed79a1cf33f1f
+conaninfo.txt: fa852a0eaea2765c13b5e38fbdabd6b8
 include/sqlite3.h: c69b4d8c1de015d4c41f229e39175d4a
 include/sqlite3ext.h: 691c47b3c10a6b0faf039073e388b223
-lib/sqlite3.lib: 3e80a2bf9f76355361312a847c706b5d
+lib/sqlite3.lib: c3c725e4f3e784966d3da6190d221c83
 licenses/LICENSE: 1b97b38474e8cb1655592e063a1774cc
