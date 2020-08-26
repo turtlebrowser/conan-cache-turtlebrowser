@@ -116,7 +116,7 @@
     opengl/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
     openssl/1.1.1g:f74366f76f700cc6e991285892ad7a23c30e6d47
     pcre2/10.33:a8481bcb3999addfc40f58826054bfe1aea8c55a
-    sqlite3/3.31.0:e633708e0e903ade74f78c291dbb127224203067
+    sqlite3/3.31.0:c765fc4d1112e2bdf851c4b5ce49599dc19c46bb
     zlib/1.2.11:f74366f76f700cc6e991285892ad7a23c30e6d47
     zstd/1.4.4:f74366f76f700cc6e991285892ad7a23c30e6d47
 
@@ -257,16 +257,20 @@
     sqlite3:build_executable=True
     sqlite3:disable_gethostuuid=False
     sqlite3:enable_column_metadata=True
+    sqlite3:enable_dbstat_vtab=False
+    sqlite3:enable_default_secure_delete=False
     sqlite3:enable_explain_comments=False
     sqlite3:enable_fts3=False
     sqlite3:enable_fts3_parenthesis=False
     sqlite3:enable_fts4=False
     sqlite3:enable_fts5=False
     sqlite3:enable_json1=False
+    sqlite3:enable_preupdate_hook=False
     sqlite3:enable_rtree=True
     sqlite3:enable_soundex=False
     sqlite3:enable_unlock_notify=True
     sqlite3:fPIC=True
+    sqlite3:max_blob_size=1000000000
     sqlite3:omit_load_extension=False
     sqlite3:shared=False
     sqlite3:threadsafe=1
