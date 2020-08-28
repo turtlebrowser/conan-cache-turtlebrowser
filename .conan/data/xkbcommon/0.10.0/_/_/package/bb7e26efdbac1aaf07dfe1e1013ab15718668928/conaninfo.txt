@@ -1,0 +1,39 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.version=7
+    os=Linux
+
+[requires]
+    xorg/system
+
+[options]
+    docs=False
+    fPIC=True
+    shared=False
+    with_wayland=False
+    with_x11=True
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.version=7
+    os=Linux
+
+[full_requires]
+    xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+
+[full_options]
+    docs=False
+    fPIC=True
+    shared=False
+    with_wayland=False
+    with_x11=True
+
+[recipe_hash]
+    4c40e735404998b1e2c3f95b44bfe7be
+
+[env]
+
