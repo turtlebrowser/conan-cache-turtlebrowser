@@ -1,0 +1,7 @@
+1598277513
+bin/sqlite3.exe: 8c5ddcf4f06ff782cfbd30089f3e8b7e
+conaninfo.txt: 6b81eb7db52c46ee37ce03a76c45c7c5
+include/sqlite3.h: c69b4d8c1de015d4c41f229e39175d4a
+include/sqlite3ext.h: 691c47b3c10a6b0faf039073e388b223
+lib/sqlite3.lib: c5128ec05a2921eff9478ede43c97715
+licenses/LICENSE: 1b97b38474e8cb1655592e063a1774cc
