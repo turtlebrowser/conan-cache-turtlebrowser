@@ -1,0 +1,13 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/debug/.conan/data/qt/5.15.0/patricia-gallardo/patched/package/8d43e643b53ffaf7598e3163f4a088bb4fc03dfe
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 WebChannel
+Description: Qt WebChannel module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5WebChannel_debug 
+Cflags: -DQT_WEBCHANNEL_LIB -I${includedir}/QtWebChannel -I${includedir}
+Requires: Qt5Core_debug Qt5Qml_debug
+
