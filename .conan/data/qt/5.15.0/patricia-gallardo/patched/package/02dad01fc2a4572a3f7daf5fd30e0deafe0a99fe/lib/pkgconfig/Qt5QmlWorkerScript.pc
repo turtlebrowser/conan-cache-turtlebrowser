@@ -1,0 +1,13 @@
+prefix=/Code/release/.conan/data/qt/5.15.0/patricia-gallardo/patched/package/02dad01fc2a4572a3f7daf5fd30e0deafe0a99fe
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 QmlWorkerScript
+Description: Qt QmlWorkerScript module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5QmlWorkerScript 
+Cflags: -DQT_QMLWORKERSCRIPT_LIB -I${includedir}/QtQmlWorkerScript -I${includedir}
+Requires: Qt5Core Qt5Qml
+
