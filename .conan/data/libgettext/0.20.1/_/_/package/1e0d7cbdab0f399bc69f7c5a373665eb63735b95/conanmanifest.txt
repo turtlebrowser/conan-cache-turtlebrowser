@@ -1,5 +1,0 @@
-1588700314
-conaninfo.txt: f948ea65153bf7cc0bb8509b12e54685
-include/libintl.h: df3ec2c1cb039a65c2dd534c0a4d54f3
-lib/libgnuintl.a: d58e25aa01c41442389e986cb511dc2e
-licenses/COPYING: c678957b0c8e964aa6c70fd77641a71e

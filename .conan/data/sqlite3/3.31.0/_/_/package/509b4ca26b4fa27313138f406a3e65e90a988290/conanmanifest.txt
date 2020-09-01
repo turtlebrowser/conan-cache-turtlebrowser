@@ -1,0 +1,7 @@
+1598277300
+bin/sqlite3: 5fe749ce6db32a735d808fc9e27cc826
+conaninfo.txt: e4358f2a05be3ee936e5c6810f826dd9
+include/sqlite3.h: c69b4d8c1de015d4c41f229e39175d4a
+include/sqlite3ext.h: 691c47b3c10a6b0faf039073e388b223
+lib/libsqlite3.a: 506b2484ae1a2ee65697563cd5a1518d
+licenses/LICENSE: 1b97b38474e8cb1655592e063a1774cc

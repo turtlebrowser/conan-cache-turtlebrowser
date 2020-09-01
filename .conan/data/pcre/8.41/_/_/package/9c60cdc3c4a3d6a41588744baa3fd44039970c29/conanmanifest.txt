@@ -1,7 +1,0 @@
-1589152665
-conaninfo.txt: f351af131b1d3deb07e8aef6d38ae698
-include/pcre.h: 402b73ce17e8ed080b261890912f1ac1
-include/pcreposix.h: 9c67f0d3ea8d1494e04125afe9c3eb31
-lib/libpcre.a: e77bd4db0e5f9228c44d0053e726d8b5
-lib/libpcreposix.a: 63bf86917088dc935dc622d2eadf5496
-licenses/LICENCE: 60da32d84d067f53e22071c4ecb4384d
