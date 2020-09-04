@@ -1,0 +1,13 @@
+prefix=/Code/release/.conan/data/qt/5.15.0/bincrafters/stable/package/bc7107ff8fe8c00bde4a1a11e983e86af3f86523
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Sql
+Description: Qt Sql module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5Sql 
+Cflags: -DQT_SQL_LIB -I${includedir}/QtSql -I${includedir}
+Requires: Qt5Core
+
