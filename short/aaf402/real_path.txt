@@ -1,1 +1,0 @@
-c:\release\.conan\data\qt\5.15.0\patricia-gallardo\patched\export_source
