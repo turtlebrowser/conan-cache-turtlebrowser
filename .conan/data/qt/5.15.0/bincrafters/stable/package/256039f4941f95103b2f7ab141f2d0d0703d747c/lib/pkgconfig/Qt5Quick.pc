@@ -1,0 +1,13 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.0/bincrafters/stable/package/256039f4941f95103b2f7ab141f2d0d0703d747c
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Quick
+Description: Qt Quick module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5Quick 
+Cflags: -DQT_QUICK_LIB -I${includedir}/QtQuick -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Qml Qt5QmlModels
+
