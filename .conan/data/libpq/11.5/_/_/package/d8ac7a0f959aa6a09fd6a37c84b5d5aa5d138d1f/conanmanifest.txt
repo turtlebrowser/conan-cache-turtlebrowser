@@ -1,4 +1,4 @@
-1592234666
+1599125738
 conaninfo.txt: 2de7455df6da180c2215ba1d633f43a5
 include/catalog/genbki.h: c31af664def3c6a3770fde74b6158a69
 include/catalog/pg_aggregate_d.h: f5eb06e6d5cdb4d3c1d0450a12e0b15e
@@ -84,6 +84,6 @@ include/libpq/scram.h: bf99973ffbaffda5ad30a4649c0b4465
 include/pg_config.h: a8fb9ce1e6cbea51ace7be8835fd9fd1
 include/pg_config_ext.h: 884bb863858c67ad7d9385ac573f5030
 include/postgres_ext.h: af0999901d1b09383c00216cb03ee01b
-lib/libpgport.lib: 311c38d22d16f732303862a6a9680f66
-lib/libpq.lib: 5b8cef1461933b773b8eb27e2227f5f0
+lib/libpgport.lib: f45777bbe7e0bd3c9dce1a59b8406b51
+lib/libpq.lib: 8aa339eaf365c9185088709d6ab084f5
 licenses/COPYRIGHT: 87da2b84884860b71f5f24ab37e7da78
