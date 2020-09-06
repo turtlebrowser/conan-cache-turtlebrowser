@@ -1,6 +1,6 @@
-1596179875
-bin/libpng-config: 4896abf12a98dca1cadd2f692c8f2c34
-bin/libpng16-config: 4896abf12a98dca1cadd2f692c8f2c34
+1599125065
+bin/libpng-config: 8bb163fbf8eb8df1c61aa4328236a0c5
+bin/libpng16-config: 8bb163fbf8eb8df1c61aa4328236a0c5
 conaninfo.txt: 0d0014a62b8cf8df93f2184c6a0bca06
 include/libpng16/png.h: a72e221d910868ae82713ea383c974f3
 include/libpng16/pngconf.h: 173e744a29a4f59836c6bd2399b9ea6b

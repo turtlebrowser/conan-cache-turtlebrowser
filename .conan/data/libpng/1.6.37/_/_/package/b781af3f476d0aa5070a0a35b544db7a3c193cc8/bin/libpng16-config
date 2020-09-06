@@ -12,10 +12,10 @@
 # Modeled after libxml-config.
 
 version="1.6.37"
-prefix="/home/conan/workspace/cci_PR-2324/2/0_3/.conan/data/libpng/1.6.37/_/_/package/b781af3f476d0aa5070a0a35b544db7a3c193cc8"
-exec_prefix="/home/conan/workspace/cci_PR-2324/2/0_3/.conan/data/libpng/1.6.37/_/_/package/b781af3f476d0aa5070a0a35b544db7a3c193cc8"
-libdir="/home/conan/workspace/cci_PR-2324/2/0_3/.conan/data/libpng/1.6.37/_/_/package/b781af3f476d0aa5070a0a35b544db7a3c193cc8/lib"
-includedir="/home/conan/workspace/cci_PR-2324/2/0_3/.conan/data/libpng/1.6.37/_/_/package/b781af3f476d0aa5070a0a35b544db7a3c193cc8/include/libpng16"
+prefix="/home/conan/w/cci_PR-2772/2/f162e3f3-3793-44a4-b50c-7a665784299d/.conan/data/libpng/1.6.37/_/_/package/b781af3f476d0aa5070a0a35b544db7a3c193cc8"
+exec_prefix="/home/conan/w/cci_PR-2772/2/f162e3f3-3793-44a4-b50c-7a665784299d/.conan/data/libpng/1.6.37/_/_/package/b781af3f476d0aa5070a0a35b544db7a3c193cc8"
+libdir="/home/conan/w/cci_PR-2772/2/f162e3f3-3793-44a4-b50c-7a665784299d/.conan/data/libpng/1.6.37/_/_/package/b781af3f476d0aa5070a0a35b544db7a3c193cc8/lib"
+includedir="/home/conan/w/cci_PR-2772/2/f162e3f3-3793-44a4-b50c-7a665784299d/.conan/data/libpng/1.6.37/_/_/package/b781af3f476d0aa5070a0a35b544db7a3c193cc8/include/libpng16"
 libs="-lpng16"
 all_libs="-lpng16 -lz -lm"
 I_opts="-I${includedir}"
