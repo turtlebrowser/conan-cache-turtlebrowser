@@ -12,10 +12,10 @@
 # Modeled after libxml-config.
 
 version="1.6.37"
-prefix="/Users/jenkins/workspace/cci_PR-2324@2/2/0_51/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf"
-exec_prefix="/Users/jenkins/workspace/cci_PR-2324@2/2/0_51/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf"
-libdir="/Users/jenkins/workspace/cci_PR-2324@2/2/0_51/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib"
-includedir="/Users/jenkins/workspace/cci_PR-2324@2/2/0_51/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include/libpng16"
+prefix="/Users/jenkins/w/cci_PR-2772/2/807801aa-986c-433f-a4a3-b64cd2e585e0/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf"
+exec_prefix="/Users/jenkins/w/cci_PR-2772/2/807801aa-986c-433f-a4a3-b64cd2e585e0/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf"
+libdir="/Users/jenkins/w/cci_PR-2772/2/807801aa-986c-433f-a4a3-b64cd2e585e0/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib"
+includedir="/Users/jenkins/w/cci_PR-2772/2/807801aa-986c-433f-a4a3-b64cd2e585e0/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include/libpng16"
 libs="-lpng16"
 all_libs="-lpng16 -lz -lm"
 I_opts="-I${includedir}"

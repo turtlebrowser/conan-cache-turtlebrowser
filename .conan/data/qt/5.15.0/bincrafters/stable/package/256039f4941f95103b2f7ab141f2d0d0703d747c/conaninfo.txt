@@ -115,7 +115,7 @@
     odbc/2.3.7:4f3f56ce5fbfacab0da1b39b1add30b423fbfbe1
     opengl/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
     openssl/1.1.1g:f74366f76f700cc6e991285892ad7a23c30e6d47
-    pcre2/10.33:9c31bd884050bdd73492bea9b6d24842c531facc
+    pcre2/10.33:2f38d1b3c1f44d93188c212ac75f0c4ea63dbafb
     sqlite3/3.31.0:c765fc4d1112e2bdf851c4b5ce49599dc19c46bb
     zlib/1.2.11:f74366f76f700cc6e991285892ad7a23c30e6d47
     zstd/1.4.4:f74366f76f700cc6e991285892ad7a23c30e6d47
@@ -250,10 +250,12 @@
     pcre2:build_pcre2_16=True
     pcre2:build_pcre2_32=True
     pcre2:build_pcre2_8=True
+    pcre2:build_pcre2grep=True
     pcre2:fPIC=True
     pcre2:shared=False
     pcre2:support_jit=False
     pcre2:with_bzip2=True
+    pcre2:with_zlib=True
     sqlite3:build_executable=True
     sqlite3:disable_gethostuuid=False
     sqlite3:enable_column_metadata=True
