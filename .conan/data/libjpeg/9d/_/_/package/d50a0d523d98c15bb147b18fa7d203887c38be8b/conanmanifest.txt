@@ -1,10 +1,10 @@
-1591130572
+1592586715
 bin/cjpeg: 0a3c66031a5f1474d36dcdd9277f1ec6
 bin/djpeg: 655fc2a8b58adbce9883ad4c83fc1834
 bin/jpegtran: 8d9650c3d0ad14613eb8ee7b19ada4c7
 bin/rdjpgcom: 98f1d4b0b9e0ed605ac198931e1c0bf8
 bin/wrjpgcom: 06dfee4b233c8036515f8ec30f7e1674
-conaninfo.txt: 991a06679ae4b334c70f5a47378b7e02
+conaninfo.txt: e7d261df8d24bcfa8f89af43fe5f75d5
 include/jconfig.h: ca3d9e86de2bbdbe8240edb85ab17843
 include/jerror.h: 8001f7238161aef01a3d4319f5a699c9
 include/jmorecfg.h: 95fd54daf9b8232f743dd938dfa87726
