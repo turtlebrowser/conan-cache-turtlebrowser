@@ -1,0 +1,56 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.version=11.0
+    os=Macos
+
+[requires]
+    freetype/2.Y.Z
+
+[options]
+    fPIC=True
+    shared=False
+    with_freetype=True
+    with_glib=False
+    with_icu=False
+
+[full_settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.version=11.0
+    os=Macos
+
+[full_requires]
+    bzip2/1.0.8:e26f883c3e136952d830bcdc838898582f2a8d80
+    freetype/2.10.1:ea086d65ab89aa1cac270b520ea07c3277cad44b
+    libpng/1.6.37:a468ffad8adea3fcab8dd371aecce5321635f9fc
+    zlib/1.2.11:0aa7be2d0914b6f3128105e305c90b9cb0cae86d
+
+[full_options]
+    fPIC=True
+    shared=False
+    with_freetype=True
+    with_glib=False
+    with_icu=False
+    bzip2:build_executable=True
+    bzip2:fPIC=True
+    bzip2:shared=False
+    freetype:fPIC=True
+    freetype:shared=False
+    freetype:with_bzip2=True
+    freetype:with_png=True
+    freetype:with_zlib=True
+    libpng:api_prefix=None
+    libpng:fPIC=True
+    libpng:shared=False
+    zlib:fPIC=True
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+    5733395ae2752d74034dccb6a94e9be8
+
+[env]
+
