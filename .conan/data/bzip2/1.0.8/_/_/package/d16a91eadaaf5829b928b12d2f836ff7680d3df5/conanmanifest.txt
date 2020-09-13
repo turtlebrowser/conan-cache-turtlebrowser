@@ -1,6 +1,6 @@
-1592220668
-bin/bzip2.exe: c89c1fa386a1224e665192c278f7488e
-conaninfo.txt: 454d7e71198e682a312da40eb7b0f5b8
+1599209114
+bin/bzip2.exe: de88fcc752977ab88df2cf25ab2624db
+conaninfo.txt: 296838dc4c7206f699ac4ae263143777
 include/bzlib.h: 62ae65ddbab1cbbc479e958bd404bea0
-lib/bz2.lib: e6216344e927fbfbf66299c3ae524a5d
+lib/bz2.lib: e163511dc44ca19d0bdc7e89677e8e84
 licenses/LICENSE: 1e5cffe65fc786f83a11a4b225495c0b
