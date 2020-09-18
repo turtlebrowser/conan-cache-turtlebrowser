@@ -47,7 +47,7 @@
     zlib:shared=False
 
 [recipe_hash]
-    0f21defb541ca39975c0db0d907e8707
+    54adea8f4f46f14720b65849988c274a
 
 [env]
 
