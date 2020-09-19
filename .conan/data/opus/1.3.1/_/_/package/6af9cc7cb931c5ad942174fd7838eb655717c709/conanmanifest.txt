@@ -1,0 +1,10 @@
+1597792575
+conaninfo.txt: 31b96dfb65a7110f8db0b97e48a0a4f7
+include/opus/opus.h: 12d5a7721f7d4b58dc3d7dec2141f1f9
+include/opus/opus_custom.h: 77c2e34b0bc22dd56ffa90b2c9538bd2
+include/opus/opus_defines.h: f456dd383a4e742a19cb75b9a9198ba4
+include/opus/opus_multistream.h: 39656f5c2fae0eca8367bde019d765a2
+include/opus/opus_projection.h: c525d963e8b904de6b31638e2f3e0cd9
+include/opus/opus_types.h: 74aa00a5fc0971fdbb4e76f871f3976e
+lib/libopus.a: 595409d080f4885c8f563d67dbb51e73
+licenses/COPYING: e304cdf74c2a1b0a33a5084c128a23a3

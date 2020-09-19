@@ -1,0 +1,4 @@
+1599496142
+conandata.yml: 18fa6b880911fd56604d4cdac4d8c6f6
+conanfile.py: 03e0eeba4ddb15b233c7de4ee0a7cb28
+export_source/patches/missing-declarations.patch: 0321a7f97bf7fff6c6268d76ddd88559

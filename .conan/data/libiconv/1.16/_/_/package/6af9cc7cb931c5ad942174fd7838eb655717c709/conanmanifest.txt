@@ -1,0 +1,9 @@
+1594897811
+bin/iconv: d70d72330b959e9208cef2de081eaf18
+conaninfo.txt: 07d7c8396f0eebdeabf2dd1491a9414c
+include/iconv.h: 9f911875c0e8b2bbee404630c65d590d
+include/libcharset.h: 1cd52fc7235fa3238604f89845296d0b
+include/localcharset.h: 818976f5ab8b223d94d2add2eb8bc807
+lib/libcharset.a: 30511d01a517e0c2324488258a7994cd
+lib/libiconv.a: 2764192fbd76672d7fd615fc7233ba2b
+licenses/COPYING.LIB: 9f604d8a4f8e74f4f5140845a21b6674
