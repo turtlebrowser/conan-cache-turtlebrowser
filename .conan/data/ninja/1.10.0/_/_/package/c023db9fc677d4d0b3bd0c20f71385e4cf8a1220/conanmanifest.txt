@@ -1,0 +1,4 @@
+1596131287
+bin/ninja: bd240ca1390dc216b4f9e434e2de4c6b
+conaninfo.txt: 4af600d08ae00daf00000f51f8b4fdb5
+licenses/COPYING: a81586a64ad4e476c791cda7e2f2c52e

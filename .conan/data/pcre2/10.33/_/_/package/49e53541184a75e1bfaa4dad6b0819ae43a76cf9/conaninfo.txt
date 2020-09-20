@@ -1,0 +1,55 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.version=5
+    os=Linux
+
+[requires]
+    bzip2/1.Y.Z
+    zlib/1.Y.Z
+
+[options]
+    build_pcre2_16=True
+    build_pcre2_32=True
+    build_pcre2_8=True
+    build_pcre2grep=True
+    fPIC=True
+    shared=False
+    support_jit=False
+    with_bzip2=True
+    with_zlib=True
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.version=5
+    os=Linux
+
+[full_requires]
+    bzip2/1.0.8:3df6ebb8a308d309e882b21988fd9ea103560e16
+    zlib/1.2.11:76f87539fc90ff313e0b3182641a9bb558a717d2
+
+[full_options]
+    build_pcre2_16=True
+    build_pcre2_32=True
+    build_pcre2_8=True
+    build_pcre2grep=True
+    fPIC=True
+    shared=False
+    support_jit=False
+    with_bzip2=True
+    with_zlib=True
+    bzip2:build_executable=True
+    bzip2:fPIC=True
+    bzip2:shared=False
+    zlib:fPIC=True
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+    54adea8f4f46f14720b65849988c274a
+
+[env]
+

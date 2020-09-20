@@ -1,0 +1,13 @@
+prefix=/home/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.0/bincrafters/stable/package/dd20f874ad109639f8a4a301d485344d5b3ffc4f
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 QmlWorkerScript
+Description: Qt QmlWorkerScript module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5QmlWorkerScript 
+Cflags: -DQT_QMLWORKERSCRIPT_LIB -I${includedir}/QtQmlWorkerScript -I${includedir}
+Requires: Qt5Core Qt5Qml
+

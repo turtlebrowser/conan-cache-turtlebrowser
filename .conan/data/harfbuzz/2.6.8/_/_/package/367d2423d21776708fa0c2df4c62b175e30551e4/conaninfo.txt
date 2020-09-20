@@ -1,0 +1,56 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.version=5
+    os=Linux
+
+[requires]
+    freetype/2.Y.Z
+
+[options]
+    fPIC=True
+    shared=False
+    with_freetype=True
+    with_glib=False
+    with_icu=False
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.version=5
+    os=Linux
+
+[full_requires]
+    bzip2/1.0.8:3df6ebb8a308d309e882b21988fd9ea103560e16
+    freetype/2.10.2:2529444d14934fc77cb61780d98aad96c0578c5c
+    libpng/1.6.37:d5204605bf864d4bd98fc6a9e624938e8e04ad03
+    zlib/1.2.11:76f87539fc90ff313e0b3182641a9bb558a717d2
+
+[full_options]
+    fPIC=True
+    shared=False
+    with_freetype=True
+    with_glib=False
+    with_icu=False
+    bzip2:build_executable=True
+    bzip2:fPIC=True
+    bzip2:shared=False
+    freetype:fPIC=True
+    freetype:shared=False
+    freetype:with_bzip2=True
+    freetype:with_png=True
+    freetype:with_zlib=True
+    libpng:api_prefix=None
+    libpng:fPIC=True
+    libpng:shared=False
+    zlib:fPIC=True
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+    3c5d9829e6ffdce4572d2c155b02987f
+
+[env]
+

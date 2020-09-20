@@ -1,0 +1,7 @@
+1594973995
+conaninfo.txt: 1445e66280bc1b7961043e6b62d15fa5
+include/expat.h: 7831d7de23c2c8eb23d91313f40e4090
+include/expat_config.h: d83d922eb5edcb581b5909b17a7744fd
+include/expat_external.h: 29cad1ffbf7e4f51554ae5a07da15b9b
+lib/libexpat.a: 6fbc7b0f66ada14853d5dab12f59ace6
+licenses/COPYING: 5b8620d98e49772d95fc1d291c26aa79

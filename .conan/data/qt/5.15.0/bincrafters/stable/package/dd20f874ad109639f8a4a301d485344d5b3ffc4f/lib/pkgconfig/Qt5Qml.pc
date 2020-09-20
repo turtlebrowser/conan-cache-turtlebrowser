@@ -1,0 +1,13 @@
+prefix=/home/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.0/bincrafters/stable/package/dd20f874ad109639f8a4a301d485344d5b3ffc4f
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Qml
+Description: Qt Qml module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5Qml 
+Cflags: -DQT_QML_LIB -I${includedir}/QtQml -I${includedir}
+Requires: Qt5Core Qt5Network
+
