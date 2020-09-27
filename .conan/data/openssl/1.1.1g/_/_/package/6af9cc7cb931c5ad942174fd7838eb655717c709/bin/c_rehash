@@ -12,8 +12,8 @@
 # Perl c_rehash script, scan all files in a directory
 # and add symbolic links to their hash values.
 
-my $dir = "/home/conan/workspace/onan-center-pull-request_PR-1782/7/pr_1782_7_36_7/.conan/data/openssl/1.1.1g/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/res";
-my $prefix = "/home/conan/workspace/onan-center-pull-request_PR-1782/7/pr_1782_7_36_7/.conan/data/openssl/1.1.1g/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709";
+my $dir = "/home/conan/w/cci_PR-2984/.conan/data/openssl/1.1.1g/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/res";
+my $prefix = "/home/conan/w/cci_PR-2984/.conan/data/openssl/1.1.1g/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709";
 
 my $errorcount = 0;
 my $openssl = $ENV{OPENSSL} || "openssl";
