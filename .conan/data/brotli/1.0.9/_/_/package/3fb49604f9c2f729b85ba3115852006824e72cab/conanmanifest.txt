@@ -1,0 +1,10 @@
+1601159115
+conaninfo.txt: 33aacb59d57f1ff6ca822af37702402f
+include/brotli/decode.h: 3ab635985bdfb22a8165816c8adb436e
+include/brotli/encode.h: 67ebfdf08ace3f56671fdd2d32a4dfea
+include/brotli/port.h: 40989c8f42ff3fa0efdeea3fe2060dfa
+include/brotli/types.h: 4d772e4c18afe1d9051a92b0ea1aefab
+lib/brotlicommon-static.lib: 75dd7b32ca3340f1f5d6517910eae8ce
+lib/brotlidec-static.lib: 5092111ef4443231d9c8dfd61f891237
+lib/brotlienc-static.lib: 4e8d8fb38324aa47db0f1fc4c403ddd8
+licenses/LICENSE: 941ee9cd1609382f946352712a319b4b

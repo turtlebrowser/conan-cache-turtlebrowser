@@ -1,0 +1,54 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=16
+    os=Windows
+
+[requires]
+    brotli/1.Y.Z
+    bzip2/1.Y.Z
+    libpng/1.Y.Z
+    zlib/1.Y.Z
+
+[options]
+    shared=False
+    with_brotli=True
+    with_bzip2=True
+    with_png=True
+    with_zlib=True
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=16
+    os=Windows
+
+[full_requires]
+    brotli/1.0.9:3fb49604f9c2f729b85ba3115852006824e72cab
+    bzip2/1.0.8:d16a91eadaaf5829b928b12d2f836ff7680d3df5
+    libpng/1.6.37:d140711d95cc16a85766a8fc3a551dfafe84cf63
+    zlib/1.2.11:3fb49604f9c2f729b85ba3115852006824e72cab
+
+[full_options]
+    shared=False
+    with_brotli=True
+    with_bzip2=True
+    with_png=True
+    with_zlib=True
+    brotli:shared=False
+    bzip2:build_executable=True
+    bzip2:shared=False
+    libpng:api_prefix=None
+    libpng:shared=False
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+    4bfb59e0a9a4ad8b5b8df9f3a8d8639b
+
+[env]
+
