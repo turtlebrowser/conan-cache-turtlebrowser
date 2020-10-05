@@ -1,0 +1,13 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.0/bincrafters/stable/package/7c91a34d7ec2febbde44ca2fea0fdf09dd1380a9
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 PdfWidgets
+Description: Qt PdfWidgets module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5PdfWidgets 
+Cflags: -DQT_PDFWIDGETS_LIB -I${includedir}/QtPdfWidgets -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets Qt5Pdf
+

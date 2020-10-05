@@ -1,0 +1,60 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.version=11.0
+    os=Macos
+
+[requires]
+    freetype/2.Y.Z
+
+[options]
+    fPIC=True
+    shared=False
+    with_freetype=True
+    with_glib=False
+    with_icu=False
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.version=11.0
+    os=Macos
+
+[full_requires]
+    brotli/1.0.9:f74366f76f700cc6e991285892ad7a23c30e6d47
+    bzip2/1.0.8:32bef4803d4b079e983ecb27f105881e778bc5a7
+    freetype/2.10.2:f4c0145073ecfc496791f7fb27b34ce4842839a4
+    libpng/1.6.37:eb50d18a5a5d59bd0c332464a4c348ab65e353bf
+    zlib/1.2.11:f74366f76f700cc6e991285892ad7a23c30e6d47
+
+[full_options]
+    fPIC=True
+    shared=False
+    with_freetype=True
+    with_glib=False
+    with_icu=False
+    brotli:fPIC=True
+    brotli:shared=False
+    bzip2:build_executable=True
+    bzip2:fPIC=True
+    bzip2:shared=False
+    freetype:fPIC=True
+    freetype:shared=False
+    freetype:with_brotli=True
+    freetype:with_bzip2=True
+    freetype:with_png=True
+    freetype:with_zlib=True
+    libpng:api_prefix=None
+    libpng:fPIC=True
+    libpng:shared=False
+    zlib:fPIC=True
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+    cafe84db536b3706473844b596f865ea
+
+[env]
+
