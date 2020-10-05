@@ -1,0 +1,13 @@
+prefix=/home/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.0/bincrafters/stable/package/b87fe7b2c2a12ccc7a23953e76007e1a8cf73b2b
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 QuickTest
+Description: Qt QuickTest module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5QuickTest 
+Cflags: -DQT_QMLTEST_LIB -I${includedir}/QtQuickTest -I${includedir}
+Requires: Qt5Core Qt5Test Qt5Widgets
+
