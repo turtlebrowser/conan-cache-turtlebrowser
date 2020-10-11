@@ -1,9 +1,9 @@
-1594898015
+1601772460
 bin/iconv: 5117c65c0091e5a894bd3f2fe73207ea
-conaninfo.txt: c2a44f2ecea053e94d7a1555b0a5ddf0
+conaninfo.txt: b87544152e4b4004f0cfdf77f386deca
 include/iconv.h: 9f911875c0e8b2bbee404630c65d590d
 include/libcharset.h: 1cd52fc7235fa3238604f89845296d0b
 include/localcharset.h: 818976f5ab8b223d94d2add2eb8bc807
-lib/libcharset.a: 3b0ac93a73197ce860cc7e0f363f4e64
-lib/libiconv.a: b410db504011de5339c99e9d3e9289da
+lib/libcharset.a: d5e8fcf2ef3f91525acd51eccafaae79
+lib/libiconv.a: a35b063ebd24ce7f8d63c586049f8a94
 licenses/COPYING.LIB: 9f604d8a4f8e74f4f5140845a21b6674
