@@ -45,7 +45,7 @@ class HarfbuzzConan(ConanFile):
         if self.options.with_icu:
             self.requires("icu/67.1")
         if self.options.with_glib:
-            self.requires("glib/2.65.1")
+            self.requires("glib/2.66.1")
 
     def configure(self):
         if self.options.shared:
@@ -110,6 +110,7 @@ class HarfbuzzConan(ConanFile):
         cmake = self._configure_cmake()
         cmake.install()
         tools.rmdir(os.path.join(self.package_folder, "lib", "cmake"))
+
 
     def package_info(self):
         self.cpp_info.libs = tools.collect_libs(self)

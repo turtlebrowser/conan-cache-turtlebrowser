@@ -1,0 +1,13 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/debug/.conan/data/qt/5.15.0/bincrafters/stable/package/14c6c66c5723028a28aacb1d6389c1212827bccc
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Help
+Description: Qt Help module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5Help_debug 
+Cflags: -DQT_HELP_LIB -I${includedir}/QtHelp -I${includedir}
+Requires: Qt5Core_debug Qt5Gui_debug Qt5Widgets_debug Qt5Sql_debug
+
