@@ -1,0 +1,12 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.0/bincrafters/stable/package/0cbbee85568ee722f9176adffa40ffc35bf8748b
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 UiPlugin
+Description: Qt UiPlugin module
+Version: 5.15.0
+Cflags: -DQT_UIPLUGIN_LIB -I${includedir}/QtUiPlugin -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+
