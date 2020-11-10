@@ -1,0 +1,14 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/debug/.conan/data/qt/5.15.0/bincrafters/stable/package/9bc3f7eda62d7a46576e77909248ae0e5c9333a2
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+host_bins=${prefix}/bin
+qt_config=shared shared rpath debug c++11 c++14 concurrent dbus no-pkg-config reduce_exports release_tools stl properties animation textcodec big_codecs codecs itemmodel proxymodel concatenatetablesproxymodel textdate datestring doubleconversion filesystemiterator filesystemwatcher gestures identityproxymodel library mimetype process statemachine regularexpression settings sharedmemory sortfilterproxymodel stringlistmodel systemsemaphore temporaryfile translation transposeproxymodel xmlstream xmlstreamreader xmlstreamwriter
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.15.0
+Libs: -L${libdir} -lQt5Core_debug 
+Cflags: -DQT_CORE_LIB -I${includedir}/QtCore -I${includedir}
+
