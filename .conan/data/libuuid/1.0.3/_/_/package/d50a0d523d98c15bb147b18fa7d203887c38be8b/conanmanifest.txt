@@ -1,5 +1,5 @@
-1596424277
-conaninfo.txt: e52537e2b9a39aa566b07e5ed9baabf1
+1605549233
+conaninfo.txt: 0dbd56d6e6d0c53c6ec459cc4ca51ef1
 include/uuid/uuid.h: 35a97c82d22737936a4ba8fb6924bcd4
-lib/libuuid.a: 99c7f6a1c9d507c024f488c747ce854e
+lib/libuuid.a: 08caa3896f7bbf44474fe33f2e77d635
 licenses/COPYING: aa3ac5b4a5bcb707f714f78794011b80
