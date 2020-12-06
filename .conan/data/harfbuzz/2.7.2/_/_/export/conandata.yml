@@ -1,8 +1,0 @@
-patches:
-  2.7.2:
-  - base_path: .
-    patch_file: patches/source_subfolder.patch
-sources:
-  2.7.2:
-    sha256: 8ec112ee108642477478b75fc7906422abed404d7530e47ba0a4875f553f1b59
-    url: https://github.com/harfbuzz/harfbuzz/archive/2.7.2.tar.gz
