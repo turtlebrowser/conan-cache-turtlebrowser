@@ -33,7 +33,7 @@
     with_x11=True
 
 [recipe_hash]
-    4c40e735404998b1e2c3f95b44bfe7be
+    69f301ac26ae361fdf6d5ca230265763
 
 [env]
 

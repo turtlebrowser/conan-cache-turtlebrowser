@@ -53,15 +53,15 @@ loaddefs()
 # etc.  If ICU is not installed in this directory, you must change the
 # following line.  There should exist ${prefix}/include/unicode/utypes.h
 # for example.
-default_prefix="/home/conan/w/cci_PR-2868/3/8d6d6f42-cc02-4633-8a44-a384b47b0492/.conan/data/icu/64.2/_/_/package/7491e184ad3cec95c035a0f1270e544956f4c213"
+default_prefix="/home/conan/w/cci_PR-3343/.conan/data/icu/64.2/_/_/package/7491e184ad3cec95c035a0f1270e544956f4c213"
 if [ "x${prefix}" = "x" ]; then prefix="$default_prefix"; fi
 exec_prefix="${prefix}"
 libdir="${exec_prefix}/lib"
 libexecdir="${exec_prefix}/libexec"
 bindir="${exec_prefix}/bin"
-datarootdir="/home/conan/w/cci_PR-2868/3/8d6d6f42-cc02-4633-8a44-a384b47b0492/.conan/data/icu/64.2/_/_/package/7491e184ad3cec95c035a0f1270e544956f4c213/lib"
+datarootdir="/home/conan/w/cci_PR-3343/.conan/data/icu/64.2/_/_/package/7491e184ad3cec95c035a0f1270e544956f4c213/lib"
 datadir="${datarootdir}"
-sbindir="/home/conan/w/cci_PR-2868/3/8d6d6f42-cc02-4633-8a44-a384b47b0492/.conan/data/icu/64.2/_/_/package/7491e184ad3cec95c035a0f1270e544956f4c213/bin"
+sbindir="/home/conan/w/cci_PR-3343/.conan/data/icu/64.2/_/_/package/7491e184ad3cec95c035a0f1270e544956f4c213/bin"
 
 # about the ICU version
 VERSION="64.2"
