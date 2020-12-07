@@ -1,0 +1,13 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.2/bincrafters/stable/package/0cbbee85568ee722f9176adffa40ffc35bf8748b
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Network
+Description: Qt Network module
+Version: 5.15.2
+Libs: -L${libdir} -lQt5Network 
+Cflags: -DQT_NETWORK_LIB -I${includedir}/QtNetwork -I${includedir}
+Requires: Qt5Core
+

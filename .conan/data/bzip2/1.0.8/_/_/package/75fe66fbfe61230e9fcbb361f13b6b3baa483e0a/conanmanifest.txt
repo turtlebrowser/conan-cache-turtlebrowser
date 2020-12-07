@@ -1,0 +1,6 @@
+1606854719
+bin/bzip2: fd21efbf1ade6a6c3c938c4aa600bc52
+conaninfo.txt: 81f5d481894bd577f2478d4b78139e6f
+include/bzlib.h: 62ae65ddbab1cbbc479e958bd404bea0
+lib/libbz2.a: aa5b6a3e94668e5fe512d223973ad3cd
+licenses/LICENSE: 1e5cffe65fc786f83a11a4b225495c0b

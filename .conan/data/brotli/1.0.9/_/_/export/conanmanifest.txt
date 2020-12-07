@@ -1,0 +1,6 @@
+1601159082
+conandata.yml: 33855d6013d0cd9dcde2c6d755a43813
+conanfile.py: 2e0ab9294327821a66c72a3050bd4af3
+export_source/CMakeLists.txt: a98f03c6807adb1155f8aaa807992597
+export_source/patches/0001-target-props.patch: 12f4a9874b5d9bb87ac7fd12dd2a3958
+export_source/patches/0002-target-props.patch: 5c57300cc70faf77513acd00d05fdbb8

@@ -1,0 +1,13 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.2/bincrafters/stable/package/0cbbee85568ee722f9176adffa40ffc35bf8748b
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Test
+Description: Qt Unit Testing Library
+Version: 5.15.2
+Libs: -L${libdir} -lQt5Test 
+Cflags: -DQT_TESTLIB_LIB -I${includedir}/QtTest -I${includedir}
+Requires: Qt5Core
+
