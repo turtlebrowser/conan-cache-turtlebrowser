@@ -1,0 +1,15 @@
+QT.core_private.VERSION = 5.15.2
+QT.core_private.name = QtCore
+QT.core_private.module =
+QT.core_private.libs = $$QT_MODULE_LIB_BASE
+QT.core_private.includes = $$QT_MODULE_INCLUDE_BASE/QtCore/5.15.2 $$QT_MODULE_INCLUDE_BASE/QtCore/5.15.2/QtCore
+QT.core_private.frameworks =
+QT.core_private.depends = core
+QT.core_private.uses =
+QT.core_private.module_config = v2 internal_module
+QT.core_private.enabled_features = clock-gettime datetimeparser doubleconversion futimens hijricalendar mimetype-database poll_poll system-pcre2 sha3-fast system-doubleconversion
+QT.core_private.disabled_features = etw futimes getauxval getentropy glib glibc gnu-libiconv icu posix-libiconv iconv inotify journald linkat lttng poll_ppoll poll_pollts poll_select renameat2 slog2 statx syslog
+QMAKE_LIBS_LIBRT = 
+QMAKE_LIBS_PCRE2 = -lpcre2-posix -lpcre2-8 -lpcre2-16 -lpcre2-32 -lz -lbz2
+QMAKE_LIBS_LIBATOMIC = 
+QMAKE_LIBS_DOUBLECONVERSION = -ldouble-conversion
