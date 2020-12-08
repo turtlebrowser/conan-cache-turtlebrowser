@@ -1,1 +1,0 @@
-c:\release\.conan\data\qt\5.15.0\bincrafters\stable\package\c40dd8f81c581849e5f29626b68d0c6007167bf4
