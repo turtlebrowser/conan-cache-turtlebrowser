@@ -1,0 +1,60 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.version=9
+    os=Linux
+
+[requires]
+    freetype/2.Y.Z
+
+[options]
+    fPIC=True
+    shared=False
+    with_freetype=True
+    with_glib=False
+    with_icu=False
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.version=9
+    os=Linux
+
+[full_requires]
+    brotli/1.0.9:6af9cc7cb931c5ad942174fd7838eb655717c709
+    bzip2/1.0.8:da606cf731e334010b0bf6e85a2a6f891b9f36b0
+    freetype/2.10.4:f1014dc4f9380132c471ceb778980949abf136d3
+    libpng/1.6.37:f99afdbf2a1cc98ba2029817b35103455b6a9b77
+    zlib/1.2.11:6af9cc7cb931c5ad942174fd7838eb655717c709
+
+[full_options]
+    fPIC=True
+    shared=False
+    with_freetype=True
+    with_glib=False
+    with_icu=False
+    brotli:fPIC=True
+    brotli:shared=False
+    bzip2:build_executable=True
+    bzip2:fPIC=True
+    bzip2:shared=False
+    freetype:fPIC=True
+    freetype:shared=False
+    freetype:with_brotli=True
+    freetype:with_bzip2=True
+    freetype:with_png=True
+    freetype:with_zlib=True
+    libpng:api_prefix=None
+    libpng:fPIC=True
+    libpng:shared=False
+    zlib:fPIC=True
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+    d4e095531f69877b4ccfde4bbe160ca7
+
+[env]
+

@@ -1,3 +1,4 @@
-1596423989
-conandata.yml: 9d4d84952dadf2bebd5a4dbafc2394cc
-conanfile.py: 649e019b82fa33ef3e869de405361771
+1605549103
+conandata.yml: 1db8db83d82bd8bf187b2356006dd97f
+conanfile.py: b2924f12a165f103b2e9d8b0bd248ee0
+export_source/patches/0001-Check-for-HAVE_SYS_SYSCALL_H.patch: 4f4ebdf8ad77d3ff5902038e9dab3230
