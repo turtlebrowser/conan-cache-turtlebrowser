@@ -1,6 +1,6 @@
-1605000966
-bin/bzip2: bda77b144d5b8f0d3fd02911df900693
+1606854716
+bin/bzip2: 70624063a314f78c4abb3e09ff9fb1d4
 conaninfo.txt: 874f7eac61ef243225a0b0057e82dfcd
 include/bzlib.h: 62ae65ddbab1cbbc479e958bd404bea0
-lib/libbz2.a: 530c0f72f5af102d90ca6af6d4a56afb
+lib/libbz2.a: fd17472bdb8df6534d1776f34c9f0487
 licenses/LICENSE: 1e5cffe65fc786f83a11a4b225495c0b
