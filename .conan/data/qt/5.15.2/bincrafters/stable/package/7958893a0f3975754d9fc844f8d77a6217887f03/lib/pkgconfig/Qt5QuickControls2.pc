@@ -1,0 +1,13 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.2/bincrafters/stable/package/7958893a0f3975754d9fc844f8d77a6217887f03
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 QuickControls2
+Description: Qt QuickControls2 module
+Version: 5.15.2
+Libs: -L${libdir} -lQt5QuickControls2 
+Cflags: -DQT_QUICKCONTROLS2_LIB -I${includedir}/QtQuickControls2 -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Quick
+

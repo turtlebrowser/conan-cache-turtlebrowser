@@ -1,0 +1,6 @@
+1611583259
+conaninfo.txt: 3941155397efb53b11b6eaf5e971934e
+include/libintl.h: df3ec2c1cb039a65c2dd534c0a4d54f3
+lib/COPYING.LIB: a4b192f7208753fc0fc8d88c733e6106
+lib/libgnuintl.a: 4557b138d79a5de4f72c5cfed27669ee
+licenses/COPYING: c678957b0c8e964aa6c70fd77641a71e
