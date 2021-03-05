@@ -12,10 +12,10 @@
 # Modeled after libxml-config.
 
 version="1.6.37"
-prefix="/Users/runner/work/turtlebrowser/turtlebrowser/debug/.conan/data/libpng/1.6.37/_/_/package/150778ad56d91e99abe6728021fb5e61699efb30"
-exec_prefix="/Users/runner/work/turtlebrowser/turtlebrowser/debug/.conan/data/libpng/1.6.37/_/_/package/150778ad56d91e99abe6728021fb5e61699efb30"
-libdir="/Users/runner/work/turtlebrowser/turtlebrowser/debug/.conan/data/libpng/1.6.37/_/_/package/150778ad56d91e99abe6728021fb5e61699efb30/lib"
-includedir="/Users/runner/work/turtlebrowser/turtlebrowser/debug/.conan/data/libpng/1.6.37/_/_/package/150778ad56d91e99abe6728021fb5e61699efb30/include/libpng16"
+prefix="/Users/jenkins/w/BuildSingleReference@2/.conan/data/libpng/1.6.37/_/_/package/150778ad56d91e99abe6728021fb5e61699efb30"
+exec_prefix="/Users/jenkins/w/BuildSingleReference@2/.conan/data/libpng/1.6.37/_/_/package/150778ad56d91e99abe6728021fb5e61699efb30"
+libdir="/Users/jenkins/w/BuildSingleReference@2/.conan/data/libpng/1.6.37/_/_/package/150778ad56d91e99abe6728021fb5e61699efb30/lib"
+includedir="/Users/jenkins/w/BuildSingleReference@2/.conan/data/libpng/1.6.37/_/_/package/150778ad56d91e99abe6728021fb5e61699efb30/include/libpng16"
 libs="-lpng16"
 all_libs="-lpng16 -lz -lm"
 I_opts="-I${includedir}"

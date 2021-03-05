@@ -1,0 +1,13 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/debug/.conan/data/qt/5.15.2/bincrafters/stable/package/8d3577458cc069e4baebe6d75d5c8b1c9e62447c
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Location
+Description: Qt Location module
+Version: 5.15.2
+Libs: -L${libdir} -lQt5Location_debug 
+Cflags: -DQT_LOCATION_LIB -I${includedir}/QtLocation -I${includedir}
+Requires: Qt5Core_debug Qt5Positioning_debug Qt5PositioningQuick_debug Qt5Gui_debug Qt5Quick_debug Qt5Network_debug Qt5Qml_debug
+
