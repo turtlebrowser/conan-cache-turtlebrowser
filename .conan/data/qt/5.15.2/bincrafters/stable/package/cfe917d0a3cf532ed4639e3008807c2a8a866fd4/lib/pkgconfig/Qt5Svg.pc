@@ -1,0 +1,13 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.2/bincrafters/stable/package/cfe917d0a3cf532ed4639e3008807c2a8a866fd4
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Svg
+Description: Qt Svg module
+Version: 5.15.2
+Libs: -L${libdir} -lQt5Svg 
+Cflags: -DQT_SVG_LIB -I${includedir}/QtSvg -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

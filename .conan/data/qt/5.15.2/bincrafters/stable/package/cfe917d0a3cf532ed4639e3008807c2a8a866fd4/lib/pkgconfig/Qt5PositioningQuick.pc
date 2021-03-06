@@ -1,0 +1,13 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/qt/5.15.2/bincrafters/stable/package/cfe917d0a3cf532ed4639e3008807c2a8a866fd4
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 PositioningQuick
+Description: Qt PositioningQuick module
+Version: 5.15.2
+Libs: -L${libdir} -lQt5PositioningQuick 
+Cflags: -DQT_POSITIONINGQUICK_LIB -I${includedir}/QtPositioningQuick -I${includedir}
+Requires: Qt5Quick Qt5Positioning Qt5Qml Qt5Core
+
