@@ -1,1 +1,0 @@
-c:\release\.conan\data\qt\5.15.2\bincrafters\stable\export_source

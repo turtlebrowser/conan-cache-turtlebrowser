@@ -1,10 +1,10 @@
-1599508239
-bin/pcre2grep.exe: 7c16ea9ac0af99289f37370a653c430e
-conaninfo.txt: 3c1df1294b3fa4439bf643a4f1218df4
+1615843136
+bin/pcre2grep.exe: e205c44f6311d05fe26acbb49fcd569f
+conaninfo.txt: a2fab165bb1dc79820db246bbaa195a7
 include/pcre2.h: 42065550301f62eb7e08da49a584a2ea
 include/pcre2posix.h: f4bc2d8e6d0f78fe4ef75de2054e2581
-lib/pcre2-16.lib: ae0b5f6f5e8bfaa213c26008d1e89c7e
-lib/pcre2-32.lib: a1849f0d3dc542e4c5cc072d598fe502
-lib/pcre2-8.lib: b99c7c722e122046d2398936a29142e1
-lib/pcre2-posix.lib: d9600fe1f0ca277523d5d390de4df7a9
+lib/pcre2-16.lib: 95e0fd45404c703daaacc75aeca814d2
+lib/pcre2-32.lib: a20a9ae95c09a8fc9e5e37b26b751d71
+lib/pcre2-8.lib: 8f6159a868938a55ccef37c53529dfac
+lib/pcre2-posix.lib: 7910b916c60132ced7b85399f63ce4bb
 licenses/LICENCE: b1588d3bb4cb0e1f5a597d908f8c5b37

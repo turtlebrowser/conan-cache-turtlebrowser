@@ -1,10 +1,10 @@
-1603201019
+1615856154
 bin/freetype-config: 5db4041ebd28c0840a4139385ba897de
-conaninfo.txt: 355a08983a435efbe438d202bbc4e9a5
+conaninfo.txt: e07bfc4df82e9a8c1414772fad0ac383
 include/freetype2/freetype/config/ftconfig.h: fb3f1634f657e4ddd181a5d0bf054920
 include/freetype2/freetype/config/ftheader.h: 8e72e64894219c4ec3fca41f9b9bed55
 include/freetype2/freetype/config/ftmodule.h: e8dfd5b101eeec8ee3902fdf750f3999
-include/freetype2/freetype/config/ftoption.h: ebb6691a9d54ebfa4200606ef75ca74d
+include/freetype2/freetype/config/ftoption.h: 3b9c5323f06e4382ffad8d40e6a38371
 include/freetype2/freetype/config/ftstdlib.h: f2e61ae739721a4113ec66d5ab141537
 include/freetype2/freetype/config/integer-types.h: 392f3a43475956e9b6acf18bab34b21e
 include/freetype2/freetype/config/mac-support.h: 4ef4c0dd02a93bebef0f30116be0b7b4
@@ -54,7 +54,8 @@ include/freetype2/freetype/ttnameid.h: c66b7c424143507f8131f6f68a44c8b1
 include/freetype2/freetype/tttables.h: 05f452dd8829311d7115fdc7ea30d95e
 include/freetype2/freetype/tttags.h: e6575cc01c0d7fb4fd7104bd58976d87
 include/freetype2/ft2build.h: bd3f0a22427fb3084a1c1433e59ac33e
-lib/freetype.lib: 220931f06d8cb97089f5c7c9875d4f2f
+lib/cmake/conan-official-freetype-targets.cmake: 427f38bae7f4bbcb0ad89f18dcc62edd
+lib/freetype.lib: ada19dc0fa660d588bea3bf3f0cf095a
 licenses/FTL.TXT: 9f37b4e6afa3fef9dba8932b16bd3f97
 licenses/GPLv2.TXT: 8ef380476f642c20ebf40fecb0add2ec
 licenses/LICENSE.TXT: 4af6221506f202774ef74f64932878a1

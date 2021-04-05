@@ -10,7 +10,6 @@
 
 
 [options]
-    minizip=False
     shared=False
 
 [full_settings]
@@ -25,11 +24,11 @@
 
 
 [full_options]
-    minizip=False
+    minizip=deprecated
     shared=False
 
 [recipe_hash]
-    1a67b713610ae745694aa4df1725451d
+    b291478a29f383b998e1633bee1c0536
 
 [env]
 

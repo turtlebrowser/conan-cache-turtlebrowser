@@ -1,0 +1,10 @@
+1615842010
+bin/pcregrep.exe: b4b83687fc26b0553616d28a750b9ad1
+conaninfo.txt: ac8db0e67272b6e89a6494a784a44570
+include/pcre.h: e823b618be7ff6322d3dcabcdfc6cdf1
+include/pcreposix.h: 9c67f0d3ea8d1494e04125afe9c3eb31
+lib/pcre.lib: 888cd2cc616c83963d1803dfa444d264
+lib/pcre16.lib: 6325c311846cc6c47e8bc34a16abee5e
+lib/pcre32.lib: 4484956a03116b92439f718597e4f22d
+lib/pcreposix.lib: 39e158a8c9f61d0c0a5ca3a2b7a1c582
+licenses/LICENCE: 3bb381a66a5385b246d4877922e7511e

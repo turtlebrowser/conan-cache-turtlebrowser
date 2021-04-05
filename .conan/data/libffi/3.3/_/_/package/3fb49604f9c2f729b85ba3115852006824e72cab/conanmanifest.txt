@@ -1,0 +1,6 @@
+1604706208
+conaninfo.txt: d5103b13c8a2dbc81dfe0a9ac315b1aa
+include/ffi.h: 55c71efd490c81e01162ee935535bd5d
+include/ffitarget.h: 4ef9928ec21c398681ed3357aa400c48
+lib/libffi.lib: 404144ae8a964e924986c7f82f34b4c7
+licenses/LICENSE: 492385fe22195952f5b9b197868ba268

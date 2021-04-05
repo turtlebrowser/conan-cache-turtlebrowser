@@ -1,8 +1,12 @@
-1592586866
-conaninfo.txt: 3cb38f9e8467a6050423d49a8a584f3f
+1616821626
+conaninfo.txt: 1a256ac7305e42746410add6fb4b7bda
 include/jconfig.h: ccf0253f6c9851ca97bd65c8f2e48683
 include/jerror.h: 8001f7238161aef01a3d4319f5a699c9
 include/jmorecfg.h: 95fd54daf9b8232f743dd938dfa87726
+include/jpegint.h: d8610a6da21255855e7c16f2f2ced22c
 include/jpeglib.h: 5fdab3089cd6666b77b00f2f63243082
-lib/libjpeg.lib: 1ba928ea1ea39dce2a1b2e1acae6ce7d
+include/transupp.h: 3c0199da67384ba4617b899d9a879969
+lib/libjpeg.lib: 5bcabead9d546a77c04313bd3f78831b
 licenses/README: 41ce79696b7cebc1e3715f19af5db026
+res/jinclude.h: ecdfb3c4cfca00f00a4344a409cc68a6
+res/transupp.c: 79096a93054bbaa29e7ba745e9892cc2

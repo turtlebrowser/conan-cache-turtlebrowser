@@ -1,4 +1,4 @@
-1605306959
+1616789106
 conandata.yml: 3b2bf9501aa04581250e3ea6895bfbfe
-conanfile.py: 65469ad4337ecbe717cc204b1c56a233
-export_source/patches/1.1.1-tvos.patch: f1ec0a20dd1941cbfb2c59055af5266f
+conanfile.py: 4f4a2136c4a7f778eb9dffd9d1eeaf28
+export_source/patches/1.1.1-tvos-watchos.patch: 11e6428830c73e7d3a49816753cc14fb
