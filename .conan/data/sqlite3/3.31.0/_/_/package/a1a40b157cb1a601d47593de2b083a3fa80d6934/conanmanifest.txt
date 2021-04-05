@@ -1,7 +1,8 @@
-1599177509
+1615929528
 bin/sqlite3: 6f3a7df06f597c9dfea8ae4cd72c4ad1
-conaninfo.txt: a924fa3222e952bd816f789131d1e604
+conaninfo.txt: 2e6d8d33226decebd479feb24d1f5858
 include/sqlite3.h: c69b4d8c1de015d4c41f229e39175d4a
 include/sqlite3ext.h: 691c47b3c10a6b0faf039073e388b223
+lib/cmake/conan-official-sqlite3-variables.cmake: 46c87924e6773d3e7458bce4657a8227
 lib/libsqlite3.a: 5a3fa9606f2fbd3d1c9403e0b481a897
 licenses/LICENSE: 1b97b38474e8cb1655592e063a1774cc

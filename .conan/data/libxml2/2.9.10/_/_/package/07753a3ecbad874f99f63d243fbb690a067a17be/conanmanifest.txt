@@ -1,8 +1,8 @@
-1606426882
-bin/xml2-config: cfdbd818e2a415f87a82a2b3490c0475
-bin/xmlcatalog: 972898262f4de255ff2bf8db2bddbeb1
-bin/xmllint: f2ebcc620371ac4a13374a7004474473
-conaninfo.txt: adbda8728371f424fea3dd744c7f9794
+1614160053
+bin/xml2-config: 48524894cc40487c2eb05f045739122c
+bin/xmlcatalog: 13a21fe078ec8a64437f1f75976a33e4
+bin/xmllint: d989dd099a1f69c48d0fd13f9324f2b5
+conaninfo.txt: eb4cac4a1e36b7850efb02a06ca55cda
 include/libxml2/libxml/DOCBparser.h: 21e6523a86338325c527e1e8847adc1d
 include/libxml2/libxml/HTMLparser.h: d57891c89573ed6dce04b8133e7438d2
 include/libxml2/libxml/HTMLtree.h: 46cf4cefb419e18c40b8d5b6ac982f3f
@@ -52,6 +52,7 @@ include/libxml2/libxml/xpathInternals.h: c18fad3cce22369a75166afed6343bcd
 include/libxml2/libxml/xpointer.h: 5b8025430888d5b99d03d159ddc78388
 include/libxml2/win32config.h: e51ff5a65571584fbe45f75eede0ee3e
 include/libxml2/wsockcompat.h: fd8ce4d6dabe53035a28c6aa64926b1c
+lib/cmake/conan-official-libxml2-variables.cmake: 4f581b1614460205213397e178ce78f0
 lib/libxml2.a: d2e665a5cf845ed1f4c32f75c198464a
-lib/xml2Conf.sh: 41d1af041b14cbc4fb3fe63a5ea767de
+lib/xml2Conf.sh: 6c23fae89bb494b3c2945bb96f096c32
 licenses/COPYING: 2044417e2e5006b65a8b9067b683fcf1

@@ -10,7 +10,6 @@
     xorg/system
 
 [options]
-    docs=False
     fPIC=True
     shared=False
     with_wayland=False
@@ -31,7 +30,7 @@
     zlib/1.2.11:d50a0d523d98c15bb147b18fa7d203887c38be8b
 
 [full_options]
-    docs=False
+    docs=deprecated
     fPIC=True
     shared=False
     with_wayland=False
@@ -77,7 +76,7 @@
     zlib:shared=False
 
 [recipe_hash]
-    78c828f8602fc18c9f03d0d80d358887
+    8253d831d5e8a996daddc19cf4a7e5f5
 
 [env]
 

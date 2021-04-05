@@ -1,6 +1,6 @@
 #! /bin/sh
 
-prefix=/home/conan/w/cci_PR-3080/.conan/data/libxml2/2.9.10/_/_/package/07753a3ecbad874f99f63d243fbb690a067a17be
+prefix=/home/conan/w/BuildSingleReference/.conan/data/libxml2/2.9.10/_/_/package/07753a3ecbad874f99f63d243fbb690a067a17be
 exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${prefix}/lib
@@ -84,7 +84,7 @@ while test $# -gt 0; do
             shift
             libs="-lxml2"
         else
-            libs="-lxml2 -L/home/conan/w/cci_PR-3080/.conan/data/zlib/1.2.11/_/_/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib -lz -Wl,-rpath=/home/conan/w/cci_PR-3080/.conan/data/zlib/1.2.11/_/_/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib    -liconv  -lm  -ldl"
+            libs="-lxml2 -L/home/conan/w/BuildSingleReference/.conan/data/zlib/1.2.11/_/_/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib -lz -Wl,-rpath,/home/conan/w/BuildSingleReference/.conan/data/zlib/1.2.11/_/_/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib     -liconv  -lm  -ldl"
         fi
 
         if [ "-L${libdir}" != "-L/usr/lib" -a "-L${libdir}" != "-L/usr/lib64" ]; then

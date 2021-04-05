@@ -1,0 +1,7 @@
+1613291649
+conaninfo.txt: 297bcb4707968f2ed08b8753f2af4e9b
+include/blkid/blkid.h: 90a436e6034a9e4561a1ed8cbeeab686
+include/libmount/libmount.h: 12c625d1ac4ecaace83fadb0eded5a4a
+lib/libblkid.a: 7e9cea2a0f6dad5039611adf7ea21aec
+lib/libmount.a: bb92c0ed5d27c78e38e1f3edda130150
+licenses/COPYING: b234ee4d69f5fce4486a80fdaf4a4263
