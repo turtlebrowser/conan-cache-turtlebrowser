@@ -25,7 +25,7 @@
     os=Macos
 
 [full_requires]
-    openssl/1.1.1i:d98fae1010d1fb9e7f79a1e8a72bbf129d8660a2
+    openssl/1.1.1j:d98fae1010d1fb9e7f79a1e8a72bbf129d8660a2
     zlib/1.2.11:d98fae1010d1fb9e7f79a1e8a72bbf129d8660a2
 
 [full_options]
@@ -83,7 +83,7 @@
     zlib:shared=False
 
 [recipe_hash]
-    5b37357dca50c397295eb8f06b048f5f
+    ff1dea5456d580f7d0dc1068b4bf19cd
 
 [env]
 

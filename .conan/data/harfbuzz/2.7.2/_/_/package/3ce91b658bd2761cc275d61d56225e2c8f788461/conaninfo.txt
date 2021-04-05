@@ -27,13 +27,13 @@
     brotli/1.0.9:d98fae1010d1fb9e7f79a1e8a72bbf129d8660a2
     bzip2/1.0.8:7fc5f5b34b9038fbd81d8c4edd0e5d12d311b628
     freetype/2.10.4:72b05eba1eb3b33d0a4741669a2e344b1be43282
-    glib/2.67.0:6ec1174cd1ac2fd5fae18d2e9ace189e87ddb3ff
+    glib/2.67.6:6ec1174cd1ac2fd5fae18d2e9ace189e87ddb3ff
     libelf/0.8.13:d98fae1010d1fb9e7f79a1e8a72bbf129d8660a2
     libffi/3.3:d98fae1010d1fb9e7f79a1e8a72bbf129d8660a2
     libgettext/0.20.1:b177afe7155f8164f49119c2ce8dd8721c9b0c1b
     libiconv/1.16:d98fae1010d1fb9e7f79a1e8a72bbf129d8660a2
     libpng/1.6.37:150778ad56d91e99abe6728021fb5e61699efb30
-    pcre/8.44:fe828f92b2b4a1a675cb10569d91cade7c72f3d2
+    pcre/8.44:23b820f7517ecb72efc297c30e0fdfc99e8a2f52
     zlib/1.2.11:d98fae1010d1fb9e7f79a1e8a72bbf129d8660a2
 
 [full_options]
@@ -78,6 +78,7 @@
     pcre:shared=False
     pcre:with_bzip2=True
     pcre:with_jit=False
+    pcre:with_stack_for_recursion=True
     pcre:with_unicode_properties=False
     pcre:with_utf=False
     pcre:with_zlib=True
@@ -86,7 +87,7 @@
     zlib:shared=False
 
 [recipe_hash]
-    ad65c631b576ea6c50510573ee784abe
+    b5a003fee84145725f803e5c24c8e9cc
 
 [env]
 

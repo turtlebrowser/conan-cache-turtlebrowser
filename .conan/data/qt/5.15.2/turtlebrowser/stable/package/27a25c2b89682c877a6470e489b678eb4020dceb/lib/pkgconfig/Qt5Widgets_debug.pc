@@ -1,0 +1,13 @@
+prefix=/Users/runner/work/turtlebrowser/turtlebrowser/debug/.conan/data/qt/5.15.2/turtlebrowser/stable/package/27a25c2b89682c877a6470e489b678eb4020dceb
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Widgets
+Description: Qt Widgets module
+Version: 5.15.2
+Libs: -L${libdir} -lQt5Widgets_debug 
+Cflags: -DQT_WIDGETS_LIB -I${includedir}/QtWidgets -I${includedir}
+Requires: Qt5Core_debug Qt5Gui_debug
+
