@@ -86,20 +86,20 @@ me=`get_full_path $0`
 # Script might have been renamed but assume mysql_<something>config<something>
 basedir=`echo $me | sed -e 's;/bin/mysql_.*config.*;;'`
 
-ldata='/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/data'
-execdir='/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/bin'
-bindir='/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/bin'
+ldata='/Users/jenkins/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/data'
+execdir='/Users/jenkins/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/bin'
+bindir='/Users/jenkins/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/bin'
 
 # If installed, search for the compiled in directory first (might be "lib64")
-pkglibdir='/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/lib'
+pkglibdir='/Users/jenkins/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/lib'
 pkglibdir_rel=`echo $pkglibdir | sed -e "s;^$basedir/;;"`
 fix_path pkglibdir $pkglibdir_rel lib/mysql lib
 
-plugindir='/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/lib/plugin'
+plugindir='/Users/jenkins/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/lib/plugin'
 plugindir_rel=`echo $plugindir | sed -e "s;^$basedir/;;"`
 fix_path plugindir $plugindir_rel lib/mysql/plugin lib/plugin
 
-pkgincludedir='/Users/runner/work/turtlebrowser/turtlebrowser/release/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/include'
+pkgincludedir='/Users/jenkins/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/12e80b538837eca6e02ef1a3eed67aa25cf3423c/include'
 if [ -f "$basedir/include/mysql/mysql.h" ]; then
   pkgincludedir="$basedir/include/mysql"
 elif [ -f "$basedir/include/mysql.h" ]; then
