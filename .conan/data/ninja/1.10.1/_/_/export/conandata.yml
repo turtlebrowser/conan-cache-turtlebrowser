@@ -1,8 +1,0 @@
-patches:
-  1.10.1:
-  - base_path: source_subfolder
-    patch_file: patches/build_testing_option_1.10.1.patch
-sources:
-  1.10.1:
-    sha256: a6b6f7ac360d4aabd54e299cc1d8fa7b234cd81b9401693da21221c62569a23e
-    url: https://github.com/ninja-build/ninja/archive/v1.10.1.tar.gz

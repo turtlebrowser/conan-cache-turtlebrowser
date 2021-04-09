@@ -12,10 +12,10 @@
 # Modeled after libxml-config.
 
 version="1.6.37"
-prefix="/home/conan/w/cci_PR-2772/2/4a10cee3-6d88-477f-8be1-840b2c5c013d/.conan/data/libpng/1.6.37/_/_/package/f99afdbf2a1cc98ba2029817b35103455b6a9b77"
-exec_prefix="/home/conan/w/cci_PR-2772/2/4a10cee3-6d88-477f-8be1-840b2c5c013d/.conan/data/libpng/1.6.37/_/_/package/f99afdbf2a1cc98ba2029817b35103455b6a9b77"
-libdir="/home/conan/w/cci_PR-2772/2/4a10cee3-6d88-477f-8be1-840b2c5c013d/.conan/data/libpng/1.6.37/_/_/package/f99afdbf2a1cc98ba2029817b35103455b6a9b77/lib"
-includedir="/home/conan/w/cci_PR-2772/2/4a10cee3-6d88-477f-8be1-840b2c5c013d/.conan/data/libpng/1.6.37/_/_/package/f99afdbf2a1cc98ba2029817b35103455b6a9b77/include/libpng16"
+prefix="/home/conan/w/BuildSingleReference/.conan/data/libpng/1.6.37/_/_/package/f99afdbf2a1cc98ba2029817b35103455b6a9b77"
+exec_prefix="/home/conan/w/BuildSingleReference/.conan/data/libpng/1.6.37/_/_/package/f99afdbf2a1cc98ba2029817b35103455b6a9b77"
+libdir="/home/conan/w/BuildSingleReference/.conan/data/libpng/1.6.37/_/_/package/f99afdbf2a1cc98ba2029817b35103455b6a9b77/lib"
+includedir="/home/conan/w/BuildSingleReference/.conan/data/libpng/1.6.37/_/_/package/f99afdbf2a1cc98ba2029817b35103455b6a9b77/include/libpng16"
 libs="-lpng16"
 all_libs="-lpng16 -lz -lm"
 I_opts="-I${includedir}"

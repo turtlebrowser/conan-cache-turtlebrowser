@@ -86,20 +86,20 @@ me=`get_full_path $0`
 # Script might have been renamed but assume mysql_<something>config<something>
 basedir=`echo $me | sed -e 's;/bin/mysql_.*config.*;;'`
 
-ldata='/home/conan/w/cci_PR-2771/2/d542851f-ee55-40d6-a4a5-5668021ed38e/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/data'
-execdir='/home/conan/w/cci_PR-2771/2/d542851f-ee55-40d6-a4a5-5668021ed38e/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/bin'
-bindir='/home/conan/w/cci_PR-2771/2/d542851f-ee55-40d6-a4a5-5668021ed38e/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/bin'
+ldata='/home/conan/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/data'
+execdir='/home/conan/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/bin'
+bindir='/home/conan/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/bin'
 
 # If installed, search for the compiled in directory first (might be "lib64")
-pkglibdir='/home/conan/w/cci_PR-2771/2/d542851f-ee55-40d6-a4a5-5668021ed38e/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/lib'
+pkglibdir='/home/conan/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/lib'
 pkglibdir_rel=`echo $pkglibdir | sed -e "s;^$basedir/;;"`
 fix_path pkglibdir $pkglibdir_rel lib/mysql lib
 
-plugindir='/home/conan/w/cci_PR-2771/2/d542851f-ee55-40d6-a4a5-5668021ed38e/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/lib/plugin'
+plugindir='/home/conan/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/lib/plugin'
 plugindir_rel=`echo $plugindir | sed -e "s;^$basedir/;;"`
 fix_path plugindir $plugindir_rel lib/mysql/plugin lib/plugin
 
-pkgincludedir='/home/conan/w/cci_PR-2771/2/d542851f-ee55-40d6-a4a5-5668021ed38e/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/include'
+pkgincludedir='/home/conan/w/BuildSingleReference/.conan/data/libmysqlclient/8.0.17/_/_/package/c9ac4e003064ca86d0557b636be39c099c45807d/include'
 if [ -f "$basedir/include/mysql/mysql.h" ]; then
   pkgincludedir="$basedir/include/mysql"
 elif [ -f "$basedir/include/mysql.h" ]; then

@@ -1,13 +1,13 @@
-1599125077
-bin/libpng-config: ca0c3f1cde700a5c67915440a3167a92
-bin/libpng16-config: ca0c3f1cde700a5c67915440a3167a92
-conaninfo.txt: 357ba119c39ae99ae4f548a59bd4b789
+1615294474
+bin/libpng-config: 00ea12820c0c7e049775d8f02962a9e1
+bin/libpng16-config: 00ea12820c0c7e049775d8f02962a9e1
+conaninfo.txt: 330c2483d8689ed7c3a81f8d95ddc978
 include/libpng16/png.h: a72e221d910868ae82713ea383c974f3
 include/libpng16/pngconf.h: 173e744a29a4f59836c6bd2399b9ea6b
 include/libpng16/pnglibconf.h: befc522b7103233b1b6f145fc72cef98
 include/png.h: a72e221d910868ae82713ea383c974f3
 include/pngconf.h: 173e744a29a4f59836c6bd2399b9ea6b
 include/pnglibconf.h: befc522b7103233b1b6f145fc72cef98
-lib/libpng.a: 07127b28944216ec9ca3506bfd97d27f
-lib/libpng16.a: 07127b28944216ec9ca3506bfd97d27f
+lib/libpng.a: 5ac6484804f3f28ea9b78e8cc3b7ec4c
+lib/libpng16.a: 5ac6484804f3f28ea9b78e8cc3b7ec4c
 licenses/LICENSE: b0085051bf265bac2bfc38bc89f50000

@@ -1,0 +1,13 @@
+prefix=/Code/release/.conan/data/qt/5.15.2/turtlebrowser/stable/package/977151e2950467f3b75f675d1c9a13036d862406
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 PrintSupport
+Description: Qt PrintSupport module
+Version: 5.15.2
+Libs: -L${libdir} -lQt5PrintSupport 
+Cflags: -DQT_PRINTSUPPORT_LIB -I${includedir}/QtPrintSupport -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

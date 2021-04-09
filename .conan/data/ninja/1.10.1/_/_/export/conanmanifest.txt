@@ -1,8 +1,0 @@
-1606592927
-conandata.yml: a2aef4f54f32f5c4b7169508fe61e954
-conanfile.py: c4e8951325687666a845a492efd4b1eb
-export_source/CMakeLists.txt: 9cb9facc4d5a65feb34ddee80ff2220d
-export_source/patches/add_install_target_to_cmake_build.patch: 45ba34ea8da24fa33aecd75d06314476
-export_source/patches/add_subproject_support.patch: 5717eb0ea58279bb3737db7c6d467289
-export_source/patches/build_testing_option.patch: 7aff1f620ea4114b7a8e8167684c6e90
-export_source/patches/build_testing_option_1.10.1.patch: df43d6965519a401dc55a24f5c1604c6
