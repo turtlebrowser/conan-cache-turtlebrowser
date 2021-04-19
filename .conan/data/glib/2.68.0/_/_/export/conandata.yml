@@ -1,0 +1,4 @@
+sources:
+  2.68.0:
+    sha256: 9d99ba95ee2e5271e0246cb6faf411d00d815fefc6aab921191f2918c0dffbbc
+    url: https://gitlab.gnome.org/GNOME/glib/-/archive/2.68.0/glib-2.68.0.tar.gz

@@ -72,11 +72,11 @@
     libxml2:xptr=True
     libxml2:zlib=True
     zlib:fPIC=True
-    zlib:minizip=False
+    zlib:minizip=deprecated
     zlib:shared=False
 
 [recipe_hash]
-    8253d831d5e8a996daddc19cf4a7e5f5
+    25d2a2789ec4576344ef5f8679373bf1
 
 [env]
 
