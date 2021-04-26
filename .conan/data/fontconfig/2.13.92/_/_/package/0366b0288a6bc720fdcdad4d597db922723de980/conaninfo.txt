@@ -50,11 +50,11 @@
     libuuid:fPIC=True
     libuuid:shared=False
     zlib:fPIC=True
-    zlib:minizip=False
+    zlib:minizip=deprecated
     zlib:shared=False
 
 [recipe_hash]
-    724d8c27aff9e955a872cf968fd0b0bc
+    88958ae5e1f22fee1daa58cc1ef308fd
 
 [env]
 
