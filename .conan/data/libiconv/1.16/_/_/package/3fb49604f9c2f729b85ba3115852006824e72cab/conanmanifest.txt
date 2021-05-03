@@ -1,9 +1,9 @@
-1612256830
-bin/iconv.exe: 75b95ad2ae90f7364bf243aff198950c
-conaninfo.txt: da8a4b0f467fcf0f72cdd467868a3bcb
+1619450169
+bin/iconv.exe: 674e0df9f24251f179755675987293aa
+conaninfo.txt: caa17a0a64dd906b9ba6e4a28bf46525
 include/iconv.h: 9f911875c0e8b2bbee404630c65d590d
 include/libcharset.h: 1cd52fc7235fa3238604f89845296d0b
 include/localcharset.h: 818976f5ab8b223d94d2add2eb8bc807
-lib/charset.lib: 5208b2e6f1598fca111f3b54b93a9811
-lib/iconv.lib: 57fa3d6c65c6a41b2c6d1d8d8fefd19e
+lib/charset.lib: bc1470dfed5b5aa7bc894a34a8665e20
+lib/iconv.lib: 4cff2e3eaacfe46d50a50395f52639d4
 licenses/COPYING.LIB: 9f604d8a4f8e74f4f5140845a21b6674
