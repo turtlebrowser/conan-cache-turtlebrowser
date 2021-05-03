@@ -1,4 +1,4 @@
-1618899355
+1618975463
 bin/etc/fonts/conf.d/README: 42d13304ed2e9e5b60b74d6ed29b3729
 bin/etc/fonts/fonts.conf: 856df034a38be8b1211bb4cd85ecfff7
 bin/fc-cache: 740394d800989f5d5df6d69d793a1e22
@@ -50,11 +50,7 @@ bin/share/fontconfig/conf.avail/90-synthetic.conf: e79defb0b94fe9d0a9af39c83e48b
 bin/share/gettext/its/fontconfig.its: fc36f0b46bc5844ae2d2523148f931fb
 bin/share/gettext/its/fontconfig.loc: cb277402e08502ee9bec303b1f07bf73
 bin/share/xml/fontconfig/fonts.dtd: a114037a0341a7c3066d7bdcccde24ac
-bin/var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-7: a59ac8f1a54217592d9b575734969cf9
-bin/var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-7: 8be0c2d8ea6d643a07ae1fd4c5d82c0b
-bin/var/cache/fontconfig/CACHEDIR.TAG: edad2301cde055e29b0d30b8d2f4b724
-bin/var/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-7: 15a2ca03051d52ec522497a3d56f461b
-conaninfo.txt: 46e6941eaa1e0a64a6789df97afaf9ca
+conaninfo.txt: 139e1f522a16a4e8c4ba309f18471ff8
 include/fontconfig/fcfreetype.h: f25cec0cf31c557b16c569e1901878bd
 include/fontconfig/fcprivate.h: 85e725e25bbda2c2f3ee3fdf90708faf
 include/fontconfig/fontconfig.h: f75b82740d5e149630dfe600d65fcbb6
