@@ -1,17 +1,17 @@
-1616821631
+1619453417
 bin/cjpeg: 77636c3ed8f4fbbac1470e735cf6d16d
 bin/djpeg: ed39210ceaf68ae4182f163f1af97869
 bin/jpegtran: 6184b4178246bde7683e77930eaa2cf2
 bin/rdjpgcom: 81cee6dcaec9c7e610177586194507cf
 bin/wrjpgcom: 00609611e1fc1f87e82c99ad711438c0
-conaninfo.txt: 1b810a004f58fd429b7756ed40426bbf
+conaninfo.txt: 418fb05bc7eea8ff0b91bdb57720adc4
 include/jconfig.h: ca3d9e86de2bbdbe8240edb85ab17843
 include/jerror.h: 8001f7238161aef01a3d4319f5a699c9
 include/jmorecfg.h: 95fd54daf9b8232f743dd938dfa87726
 include/jpegint.h: d8610a6da21255855e7c16f2f2ced22c
 include/jpeglib.h: 5fdab3089cd6666b77b00f2f63243082
 include/transupp.h: 3c0199da67384ba4617b899d9a879969
-lib/libjpeg.a: bb58b92ae400ab1f3a7cebcb4fbbbe22
+lib/libjpeg.a: 5ce8eaa9f5a2d88e236f9108ef0b2aad
 licenses/README: 41ce79696b7cebc1e3715f19af5db026
 res/jinclude.h: ecdfb3c4cfca00f00a4344a409cc68a6
 res/transupp.c: 79096a93054bbaa29e7ba745e9892cc2
