@@ -1,6 +1,6 @@
-1604706208
-conaninfo.txt: d5103b13c8a2dbc81dfe0a9ac315b1aa
+1620828201
+conaninfo.txt: b39248dcbf231fd5685a67b51c8a091b
 include/ffi.h: 55c71efd490c81e01162ee935535bd5d
 include/ffitarget.h: 4ef9928ec21c398681ed3357aa400c48
-lib/libffi.lib: 404144ae8a964e924986c7f82f34b4c7
+lib/libffi.lib: a9666be04711c75b5e92a7ff88369ae8
 licenses/LICENSE: 492385fe22195952f5b9b197868ba268
