@@ -30,6 +30,9 @@
     no_dh=False
     no_dsa=False
     no_dso=False
+    no_ec=False
+    no_ecdh=False
+    no_ecdsa=False
     no_engine=False
     no_filenames=False
     no_gost=False
@@ -41,17 +44,22 @@
     no_ocsp=False
     no_pinshared=False
     no_rc2=False
+    no_rfc3779=False
     no_rmd160=False
     no_rsa=False
+    no_seed=False
     no_sha=False
     no_sm2=False
     no_sm3=False
     no_sm4=False
+    no_sock=False
     no_srp=False
     no_srtp=False
     no_sse2=False
     no_ssl=False
+    no_ssl3=False
     no_threads=False
+    no_tls1=False
     no_ts=False
     no_whirlpool=False
     openssldir=None
@@ -89,6 +97,9 @@
     no_dh=False
     no_dsa=False
     no_dso=False
+    no_ec=False
+    no_ecdh=False
+    no_ecdsa=False
     no_engine=False
     no_filenames=False
     no_gost=False
@@ -100,24 +111,29 @@
     no_ocsp=False
     no_pinshared=False
     no_rc2=False
+    no_rfc3779=False
     no_rmd160=False
     no_rsa=False
+    no_seed=False
     no_sha=False
     no_sm2=False
     no_sm3=False
     no_sm4=False
+    no_sock=False
     no_srp=False
     no_srtp=False
     no_sse2=False
     no_ssl=False
+    no_ssl3=False
     no_threads=False
+    no_tls1=False
     no_ts=False
     no_whirlpool=False
     openssldir=None
     shared=False
 
 [recipe_hash]
-    51d43dca76de6dc176f8603c238e6b68
+    1edd6d9f6c995317580248d282335014
 
 [env]
 
