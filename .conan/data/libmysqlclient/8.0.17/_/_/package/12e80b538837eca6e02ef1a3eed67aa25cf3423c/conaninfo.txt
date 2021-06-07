@@ -25,7 +25,7 @@
     os=Macos
 
 [full_requires]
-    openssl/1.1.1j:647afeb69d3b0a2d3d316e80b24d38c714cc6900
+    openssl/1.1.1k:647afeb69d3b0a2d3d316e80b24d38c714cc6900
     zlib/1.2.11:647afeb69d3b0a2d3d316e80b24d38c714cc6900
 
 [full_options]
@@ -52,6 +52,9 @@
     openssl:no_dh=False
     openssl:no_dsa=False
     openssl:no_dso=False
+    openssl:no_ec=False
+    openssl:no_ecdh=False
+    openssl:no_ecdsa=False
     openssl:no_engine=False
     openssl:no_filenames=False
     openssl:no_gost=False
@@ -63,27 +66,32 @@
     openssl:no_ocsp=False
     openssl:no_pinshared=False
     openssl:no_rc2=False
+    openssl:no_rfc3779=False
     openssl:no_rmd160=False
     openssl:no_rsa=False
+    openssl:no_seed=False
     openssl:no_sha=False
     openssl:no_sm2=False
     openssl:no_sm3=False
     openssl:no_sm4=False
+    openssl:no_sock=False
     openssl:no_srp=False
     openssl:no_srtp=False
     openssl:no_sse2=False
     openssl:no_ssl=False
+    openssl:no_ssl3=False
     openssl:no_threads=False
+    openssl:no_tls1=False
     openssl:no_ts=False
     openssl:no_whirlpool=False
     openssl:openssldir=None
     openssl:shared=False
     zlib:fPIC=True
-    zlib:minizip=False
+    zlib:minizip=deprecated
     zlib:shared=False
 
 [recipe_hash]
-    ff1dea5456d580f7d0dc1068b4bf19cd
+    76989994abf2ae89348bd5d6233d1eb1
 
 [env]
 
