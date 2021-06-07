@@ -27,7 +27,7 @@
     shared=False
 
 [recipe_hash]
-    e66c3be6849d81a9af1934e655bf4aaf
+    8409600cabc5e7ac3c44bcdaf6c9d62a
 
 [env]
 
