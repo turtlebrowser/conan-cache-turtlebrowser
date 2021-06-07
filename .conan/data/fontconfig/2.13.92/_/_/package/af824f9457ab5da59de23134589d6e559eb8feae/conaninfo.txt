@@ -23,7 +23,7 @@
 [full_requires]
     brotli/1.0.9:6af9cc7cb931c5ad942174fd7838eb655717c709
     bzip2/1.0.8:da606cf731e334010b0bf6e85a2a6f891b9f36b0
-    expat/2.3.0:6af9cc7cb931c5ad942174fd7838eb655717c709
+    expat/2.4.1:c215f67ac7fc6a34d9d0fb90b0450016be569d86
     freetype/2.10.4:f1014dc4f9380132c471ceb778980949abf136d3
     libpng/1.6.37:f99afdbf2a1cc98ba2029817b35103455b6a9b77
     libuuid/1.0.3:6af9cc7cb931c5ad942174fd7838eb655717c709
@@ -36,6 +36,7 @@
     bzip2:build_executable=True
     bzip2:fPIC=True
     bzip2:shared=False
+    expat:char_type=char
     expat:fPIC=True
     expat:shared=False
     freetype:fPIC=True
@@ -54,7 +55,7 @@
     zlib:shared=False
 
 [recipe_hash]
-    a52d8ba259d0bdf74105faf9c4d69df4
+    13f8ee6d7477dc98cd253d2fdb6562f1
 
 [env]
 
