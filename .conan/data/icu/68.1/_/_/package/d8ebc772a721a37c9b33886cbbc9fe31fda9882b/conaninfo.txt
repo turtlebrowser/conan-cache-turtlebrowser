@@ -35,7 +35,7 @@
     with_unit_tests=False
 
 [recipe_hash]
-    c168fa2eec325dc964c126592d4fcdd9
+    eef53f8a0414735668ce2b080e0c3fcd
 
 [env]
 
