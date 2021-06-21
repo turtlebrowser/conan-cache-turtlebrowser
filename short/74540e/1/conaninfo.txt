@@ -58,11 +58,11 @@
     pcre:with_unicode_properties=False
     pcre:with_utf=False
     pcre:with_zlib=True
-    zlib:minizip=False
+    zlib:minizip=deprecated
     zlib:shared=False
 
 [recipe_hash]
-    f8dbc0367c350447fcfb73a2c3896c74
+    9bdf9a5809500e95fec0b78fddfaa748
 
 [env]
 

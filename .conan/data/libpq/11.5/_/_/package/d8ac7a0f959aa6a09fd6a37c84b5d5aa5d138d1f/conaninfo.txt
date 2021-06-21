@@ -29,11 +29,11 @@
     shared=False
     with_openssl=False
     with_zlib=True
-    zlib:minizip=False
+    zlib:minizip=deprecated
     zlib:shared=False
 
 [recipe_hash]
-    f752036cccee3208b3cebdb35d8ea8f6
+    1aba8cf79bc31b5038d2fca6066be437
 
 [env]
 
