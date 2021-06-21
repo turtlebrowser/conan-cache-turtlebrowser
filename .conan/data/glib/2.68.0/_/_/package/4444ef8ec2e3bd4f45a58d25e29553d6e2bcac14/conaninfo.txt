@@ -79,11 +79,11 @@
     pcre2:with_bzip2=True
     pcre2:with_zlib=True
     zlib:fPIC=True
-    zlib:minizip=False
+    zlib:minizip=deprecated
     zlib:shared=False
 
 [recipe_hash]
-    f8dbc0367c350447fcfb73a2c3896c74
+    9bdf9a5809500e95fec0b78fddfaa748
 
 [env]
 
