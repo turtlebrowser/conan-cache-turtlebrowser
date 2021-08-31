@@ -1,8 +1,8 @@
-1589830375
-conandata.yml: afa9aa03a55e6613c1ad07744d4f0816
-conanfile.py: 7448431e892658cf05f4bb5fd0f446b0
+1623325221
+conandata.yml: 9fed196f29792af81eb2be2850a53311
+conanfile.py: 1abaf1b20d879bb7b67970936e334fe6
 export_source/CMakeLists.txt: 3a446602cb858ea8e914fa43ef202100
-export_source/patches/0001-find-cmake.patch: c4aaf35756d409854c53599631d17dda
+export_source/patches/0001-find-cmake.patch: b4bb8820b2a27dae6ede8383a0f92a0c
 export_source/patches/0002-dont-install-static-libraries+fix-mysql-config.patch: a4916f82bf3c8b21097750879251a945
 export_source/patches/0003-msvc-install-no-pdb.patch: 6114f492e0b592045efe7442dbe76a04
-export_source/patches/0004-find-openssl-debug.patch: efce32dfce4e490005a7fa0602720560
+export_source/patches/0004-fix-805-cpp17-build.patch: 75029b0cf56983bae256a4651f5d1e74

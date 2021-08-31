@@ -1,5 +1,6 @@
-1604387628
-conandata.yml: 2cf3478d031eb4f45a42e787e89bb8df
-conanfile.py: 8604d6aac0281a114c2856a7a36c6aee
+1618305788
+conandata.yml: 89bd52f82eb84c44409c47f0f7df5727
+conanfile.py: 9dd141c22615c5287c7ea08ec9832b33
 export_source/CMakeLists.txt: 616ac58003e839f0e4cd9e1ec77a5445
-export_source/patches/source_subfolder.patch: 84dca4b861a151f961c9da896c8c7783
+export_source/patches/icu-2.8.x.patch: 31b43580103e7f050340a577171d9503
+export_source/patches/icu.patch: a89567c1c9f93ee12ebf6ceadda5c509

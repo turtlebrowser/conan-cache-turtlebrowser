@@ -1,7 +1,7 @@
 patches:
   2.7.2:
-  - base_path: .
-    patch_file: patches/source_subfolder.patch
+  - base_path: source_subfolder
+    patch_file: patches/icu.patch
 sources:
   2.7.2:
     sha256: 8ec112ee108642477478b75fc7906422abed404d7530e47ba0a4875f553f1b59

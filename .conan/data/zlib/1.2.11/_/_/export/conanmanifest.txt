@@ -1,8 +1,6 @@
-1605412414
-conandata.yml: 78be960d937db4d1b6e779cac309150b
-conanfile.py: afb5feb0d167e07a6481c77fc03c61ad
+1620231429
+conandata.yml: f769d86edaf08f7850db0e5bc90d1f0e
+conanfile.py: c059d4a503cd9ca6009831ed135c081a
 export_source/CMakeLists.txt: b45a8f19ed120e922c1cb720c0e4a7c7
-export_source/CMakeLists_minizip.txt: b11e2038f9ac80d92bf969c9b3a7af78
-export_source/patches/0001-minizip.patch: dc8ffe80d334f8e5b1bb967593fe2d4a
 export_source/patches/0002-gzguts-xcode12-compile-fix.patch: 86d7b5fa099f2ba64f4999f84185be87
 export_source/patches/0003-cmake-fix-msys2-subsystem.patch: bacbdd0eb3a85d7bd5b36da09a8cc4a2

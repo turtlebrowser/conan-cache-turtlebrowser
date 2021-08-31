@@ -10,7 +10,6 @@
 
 [options]
     fPIC=True
-    minizip=False
     shared=False
 
 [full_settings]
@@ -25,11 +24,11 @@
 
 [full_options]
     fPIC=True
-    minizip=False
+    minizip=deprecated
     shared=False
 
 [recipe_hash]
-    1a67b713610ae745694aa4df1725451d
+    08c5163c8e302d1482d8fa2be93736af
 
 [env]
 

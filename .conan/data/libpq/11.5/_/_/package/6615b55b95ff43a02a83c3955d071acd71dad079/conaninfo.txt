@@ -32,11 +32,11 @@
     with_openssl=False
     with_zlib=True
     zlib:fPIC=True
-    zlib:minizip=False
+    zlib:minizip=deprecated
     zlib:shared=False
 
 [recipe_hash]
-    dc3b72bb98dca4a5fd2cf28fbe817900
+    1aba8cf79bc31b5038d2fca6066be437
 
 [env]
 
