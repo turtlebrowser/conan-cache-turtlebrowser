@@ -1,0 +1,8 @@
+patches:
+  9d:
+  - base_path: source_subfolder
+    patch_file: patches/0001-libjpeg-add-msvc-dll-support.patch
+sources:
+  9d:
+    sha256: 6c434a3be59f8f62425b2e3c077e785c9ce30ee5874ea1c270e843f273ba71ee
+    url: http://ijg.org/files/jpegsrc.v9d.tar.gz

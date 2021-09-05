@@ -1,0 +1,5 @@
+1608215759
+conandata.yml: 0285419aa05b7caa10588cdf53d9d0c4
+conanfile.py: 5398e1dc0cc5d6395a915afab7a7f9e6
+export_source/CMakeLists.txt: 3fa5c2e5403093597f8fbce35c37c662
+export_source/patches/0001-cmake-install-dll.patch: bd9c2bda443ded0e8042daace2d79ec1

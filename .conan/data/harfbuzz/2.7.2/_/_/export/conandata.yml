@@ -1,0 +1,8 @@
+patches:
+  2.7.2:
+  - base_path: source_subfolder
+    patch_file: patches/icu.patch
+sources:
+  2.7.2:
+    sha256: b8c048d7c2964a12f2c80deb6634dfc836b603dd12bf0d0a3df1627698e220ce
+    url: https://github.com/harfbuzz/harfbuzz/releases/download/2.7.2/harfbuzz-2.7.2.tar.xz

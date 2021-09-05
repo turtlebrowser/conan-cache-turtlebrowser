@@ -1,0 +1,4 @@
+1606592940
+bin/ninja: 082cd1ce7ee7232048a6e44e76ab15a6
+conaninfo.txt: b0daae14fcd88da8780a9d2ef2332add
+licenses/COPYING: a81586a64ad4e476c791cda7e2f2c52e

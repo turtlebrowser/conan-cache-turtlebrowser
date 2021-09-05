@@ -1,0 +1,5 @@
+1620060566
+conandata.yml: 48ba03a1f8f1d3c5e5f88ee16cf5d4c9
+conanfile.py: d56a339c2b00606410445db1ed559eb8
+export_source/CMakeLists.txt: ede4dbc7d159b2650b2a4180bc686ab4
+export_source/patches/0001-fix-sys-stat-include.patch: cd08a17741c889be06055d07b82238ef

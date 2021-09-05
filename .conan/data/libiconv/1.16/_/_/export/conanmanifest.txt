@@ -1,0 +1,4 @@
+1629108895
+conandata.yml: 39702b1d89bb36c3041eb7d5d648c40a
+conanfile.py: 9c6c259c237bf3eb581da0bbd46c4909
+export_source/patches/0001-libcharset-fix-linkage.patch: 4a4c1063ae9a6870937a0df8625322ab

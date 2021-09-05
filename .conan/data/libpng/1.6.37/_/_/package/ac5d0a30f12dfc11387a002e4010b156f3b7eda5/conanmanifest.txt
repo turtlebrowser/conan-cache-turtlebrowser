@@ -1,0 +1,11 @@
+1627125113
+conaninfo.txt: e4a8da5eda335a3fddac70c216339642
+include/libpng16/png.h: a72e221d910868ae82713ea383c974f3
+include/libpng16/pngconf.h: 173e744a29a4f59836c6bd2399b9ea6b
+include/libpng16/pnglibconf.h: befc522b7103233b1b6f145fc72cef98
+include/png.h: a72e221d910868ae82713ea383c974f3
+include/pngconf.h: 173e744a29a4f59836c6bd2399b9ea6b
+include/pnglibconf.h: befc522b7103233b1b6f145fc72cef98
+lib/libpng.a: a4fde53fa3d52bfb33e8b4e08bb1edad
+lib/libpng16.a: a4fde53fa3d52bfb33e8b4e08bb1edad
+licenses/LICENSE: b0085051bf265bac2bfc38bc89f50000

@@ -1,0 +1,34 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.version=12.0
+    os=Macos
+
+[requires]
+
+
+[options]
+    fPIC=True
+    shared=False
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.version=12.0
+    os=Macos
+
+[full_requires]
+
+
+[full_options]
+    fPIC=True
+    minizip=deprecated
+    shared=False
+
+[recipe_hash]
+    b3eaf63da20a8606f3d84602c2cfa854
+
+[env]
+

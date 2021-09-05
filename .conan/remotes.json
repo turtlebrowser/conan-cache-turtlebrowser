@@ -1,0 +1,19 @@
+{
+ "remotes": [
+  {
+   "name": "conancenter",
+   "url": "https://center.conan.io",
+   "verify_ssl": true
+  },
+  {
+   "name": "jfrog",
+   "url": "https://turtlebrowser.jfrog.io/artifactory/api/conan/conan",
+   "verify_ssl": true
+  },
+  {
+   "name": "conan-center",
+   "url": "https://conan.bintray.com",
+   "verify_ssl": true
+  }
+ ]
+}

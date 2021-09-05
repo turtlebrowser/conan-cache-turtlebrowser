@@ -1,0 +1,5 @@
+1629946065
+conandata.yml: 3b2bf9501aa04581250e3ea6895bfbfe
+conanfile.py: cda666f35d2d7d835b530d197a3065e0
+export_source/patches/1.0.2u-darwin-arm64.patch: cbf1c08bcd200c5a459259a4a2c3f41d
+export_source/patches/1.1.1-tvos-watchos.patch: 11e6428830c73e7d3a49816753cc14fb

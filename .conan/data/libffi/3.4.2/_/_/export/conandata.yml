@@ -1,0 +1,14 @@
+patches:
+  3.4.2:
+  - base_path: source_subfolder
+    patch_file: patches/0002-3.4.2-fix-libtool-path.patch
+  - base_path: source_subfolder
+    patch_file: patches/0004-3.3-fix-complex-type-msvc.patch
+  - base_path: source_subfolder
+    patch_file: patches/0005-3.4.2-do-not-install-libraries-to-arch-dependent-directories.patch
+  - base_path: source_subfolder
+    patch_file: patches/0006-3.4.2-library-no-version-suffix.patch
+sources:
+  3.4.2:
+    sha256: 540fb721619a6aba3bdeef7d940d8e9e0e6d2c193595bc243241b77ff9e93620
+    url: https://github.com/libffi/libffi/releases/download/v3.4.2/libffi-3.4.2.tar.gz
