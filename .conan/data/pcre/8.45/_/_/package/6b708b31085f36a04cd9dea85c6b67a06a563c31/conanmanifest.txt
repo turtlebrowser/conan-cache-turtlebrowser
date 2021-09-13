@@ -1,11 +1,11 @@
-1629277155
-bin/pcre-config: 9e86d6c78dd607c551ca33ad302f906a
+1631193587
+bin/pcre-config: b9c3375da9910f8af5aea9cbdfeef1d0
 bin/pcregrep: 3fd42e17c7ab012033f4dfab127d130c
-conaninfo.txt: 01d242849dc38a65f92da227c40e2956
+conaninfo.txt: f4e6f8fa0bb2850fd19ddc8b607ebde0
 include/pcre.h: 0837628f873ca907378e474446331ebc
 include/pcreposix.h: 9c67f0d3ea8d1494e04125afe9c3eb31
-lib/libpcre.a: cf668829edb994ac890b864910460fe1
-lib/libpcre16.a: d6972f52bd523b8cab0adec46d37c13c
-lib/libpcre32.a: 94e4f0d04f5bb4b6baed1cff8a4e2439
-lib/libpcreposix.a: ebb770fa3886db0d34f0de8c9605ed48
+lib/libpcre.a: 91b33ae0d30c4119a2a763eabb90ed10
+lib/libpcre16.a: bfdbcbadd1c01955fc033fc48fb796e2
+lib/libpcre32.a: 1d90852df16519833df6332bf43258a5
+lib/libpcreposix.a: 0a63814e415e8a96cf07b2096f1bed8b
 licenses/LICENCE: b5d5d1a69a24ea2718263f1ff85a1c58
