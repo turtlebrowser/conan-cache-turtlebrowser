@@ -29,7 +29,7 @@
 [full_requires]
     brotli/1.0.9:647afeb69d3b0a2d3d316e80b24d38c714cc6900
     bzip2/1.0.8:75fe66fbfe61230e9fcbb361f13b6b3baa483e0a
-    libpng/1.6.37:88955cec2844f731470e07bd44ce5a3a24ec88b7
+    libpng/1.6.37:ac5d0a30f12dfc11387a002e4010b156f3b7eda5
     zlib/1.2.11:647afeb69d3b0a2d3d316e80b24d38c714cc6900
 
 [full_options]
@@ -44,15 +44,16 @@
     bzip2:build_executable=True
     bzip2:fPIC=True
     bzip2:shared=False
-    libpng:api_prefix=None
+    libpng:api_prefix=
     libpng:fPIC=True
     libpng:shared=False
+    libpng:sse=True
     zlib:fPIC=True
     zlib:minizip=deprecated
     zlib:shared=False
 
 [recipe_hash]
-    4b72f982daf39c04feee2fb520b6f4ff
+    5f39ce560c4e2226babf571e8f4f6f32
 
 [env]
 
