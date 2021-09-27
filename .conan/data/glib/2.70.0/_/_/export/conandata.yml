@@ -1,0 +1,4 @@
+sources:
+  2.70.0:
+    sha256: aadf815ed908d4cc14ac3976f325b986b4ab2b65ad85bc214ddf2e200648bd1c
+    url: https://gitlab.gnome.org/GNOME/glib/-/archive/2.70.0/glib-2.70.0.tar.gz

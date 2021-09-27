@@ -1,5 +1,5 @@
-1629341486
-conaninfo.txt: fb6b50d13f3c14f36d991f7a96468b56
+1632366052
+conaninfo.txt: fdd4250c86d5c94a9e90dbfb1bd5190a
 include/harfbuzz/hb-aat-layout.h: 58ef5674d8f3a95e64de98a54d3ed6aa
 include/harfbuzz/hb-aat.h: 24c72c8291790e6e96b1e5757645f2af
 include/harfbuzz/hb-blob.h: 3d543765c9e8f9dc2c77948d72a4c838
@@ -31,5 +31,5 @@ include/harfbuzz/hb-style.h: cf9ea3cf4dbe9d172344a37bf69a75ca
 include/harfbuzz/hb-unicode.h: b0b82922dfdcdbf901bedf10e6e11045
 include/harfbuzz/hb-version.h: a831f38141a2918c0504182393d2777a
 include/harfbuzz/hb.h: aabe8d4a0d9b51c4cc15175bf031127f
-lib/libharfbuzz.a: 4e40bd2d3d93a531b2a3e315895a859e
+lib/libharfbuzz.a: a39981ddde7bddd2c9f7c9612a204436
 licenses/COPYING: 8f787620b7d3866d9552fd1924c07572

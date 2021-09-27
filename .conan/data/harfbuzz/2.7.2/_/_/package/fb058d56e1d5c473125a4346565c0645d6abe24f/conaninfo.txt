@@ -28,14 +28,14 @@
 [full_requires]
     brotli/1.0.9:647afeb69d3b0a2d3d316e80b24d38c714cc6900
     bzip2/1.0.8:75fe66fbfe61230e9fcbb361f13b6b3baa483e0a
-    freetype/2.10.4:f4924bd3b94e155cbf790d74ba3a3c29ccc81e89
-    glib/2.69.1:6b69aa859b3130e0da5f4450fd2f86f305364cdc
+    freetype/2.11.0:f4924bd3b94e155cbf790d74ba3a3c29ccc81e89
+    glib/2.70.0:6b69aa859b3130e0da5f4450fd2f86f305364cdc
     libelf/0.8.13:647afeb69d3b0a2d3d316e80b24d38c714cc6900
-    libffi/3.3:647afeb69d3b0a2d3d316e80b24d38c714cc6900
+    libffi/3.4.2:647afeb69d3b0a2d3d316e80b24d38c714cc6900
     libgettext/0.20.1:c216147e4b5592f3887c5339c136d808842a9b1f
     libiconv/1.16:647afeb69d3b0a2d3d316e80b24d38c714cc6900
     libpng/1.6.37:ac5d0a30f12dfc11387a002e4010b156f3b7eda5
-    pcre/8.44:94834772cc1442ba83e7c43a04d21e0246867136
+    pcre/8.45:6b708b31085f36a04cd9dea85c6b67a06a563c31
     zlib/1.2.11:647afeb69d3b0a2d3d316e80b24d38c714cc6900
 
 [full_options]
@@ -82,15 +82,15 @@
     pcre:with_bzip2=True
     pcre:with_jit=False
     pcre:with_stack_for_recursion=True
-    pcre:with_unicode_properties=False
-    pcre:with_utf=False
+    pcre:with_unicode_properties=True
+    pcre:with_utf=True
     pcre:with_zlib=True
     zlib:fPIC=True
     zlib:minizip=deprecated
     zlib:shared=False
 
 [recipe_hash]
-    c98754c7307c1972c9b7f03ac1217214
+    c78c06f85818d41e82795537e7d2f1d5
 
 [env]
 

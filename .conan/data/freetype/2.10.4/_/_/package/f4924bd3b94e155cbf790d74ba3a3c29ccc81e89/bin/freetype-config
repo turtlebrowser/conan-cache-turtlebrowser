@@ -16,7 +16,7 @@ conan_prefix=$(dirname $BINDIR)
 conan_exec_prefix=${conan_prefix}/bin
 conan_includedir=${conan_prefix}/include
 conan_libdir=${conan_prefix}/lib
-conan_ftversion=23.0.17
+conan_ftversion=23.4.17
 conan_staticlibs="-lfreetype"
 
 
