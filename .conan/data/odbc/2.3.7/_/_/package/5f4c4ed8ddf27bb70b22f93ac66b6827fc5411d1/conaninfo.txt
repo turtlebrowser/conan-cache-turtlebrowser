@@ -31,7 +31,7 @@
     libiconv:shared=False
 
 [recipe_hash]
-    5bbe02399178f6c1a4513a7832191f4f
+    0fad8b3d41ce0a1148f8301f6865069e
 
 [env]
 
